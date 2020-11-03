@@ -18,5 +18,8 @@ module.exports = {
     // Enable CSS source maps.
     sourceMap: process.env.NODE_ENV !== 'production'
   },
-  publicPath: '/docs'
+  outputDir: path.resolve(__dirname, './docs'),
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/docs'
+  : '/'
 };
