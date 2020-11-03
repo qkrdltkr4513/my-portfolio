@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import './main.js'
 export default {
 }
 </script>
