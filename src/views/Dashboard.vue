@@ -5,55 +5,71 @@
       <!-- Card stats -->
       <b-row>
         <b-col xl="3" md="6">
-          <stats-card title="Total traffic"
+          <stats-card title="개인정보"
                       type="gradient-red"
-                      sub-title="350,897"
+                      sub-title="박이삭"
                       icon="ni ni-active-40"
                       class="mb-4">
 
             <template slot="footer">
-              <span class="text-success mr-2">3.48%</span>
-              <span class="text-nowrap">Since last month</span>
+              <div class="first-line">
+                <span class="text-success mr-2">나이:</span>
+                <span class="text-nowrap mr-4">29세</span>
+                <span class="text-success mr-2">성별:</span>
+                <span class="text-nowrap">남자</span>
+              </div>
+              <div class="second-line">
+                <span class="text-success mr-2">생년월일:</span>
+                <span class="text-nowrap mr-4">1992.07.27</span>
+              </div>
             </template>
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="Total traffic"
+          <stats-card title="병역사항"
                       type="gradient-orange"
-                      sub-title="2,356"
+                      sub-title="2012.01 ~ 2013.10"
                       icon="ni ni-chart-pie-35"
-                      class="mb-4">
+                      class="mb-4 military-period">
 
             <template slot="footer">
-              <span class="text-success mr-2">12.18%</span>
-              <span class="text-nowrap">Since last month</span>
+              <div class="first-line">
+                <span class="text-success mr-2">군별:</span>
+                <span class="text-nowrap mr-4">육군</span>
+                <span class="text-success mr-2">계급:</span>
+                <span class="text-nowrap">병장</span>
+              </div>
+              <div class="second-line">
+                <span class="text-success mr-2">전역사유 :</span>
+                <span class="text-nowrap mr-4">만기제대</span>
+              </div>
             </template>
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="Sales"
+          <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="924"
+                      sub-title="3년 7개월"
                       icon="ni ni-money-coins"
                       class="mb-4">
 
             <template slot="footer">
-              <span class="text-danger mr-2">5.72%</span>
-              <span class="text-nowrap">Since last month</span>
+              <span class="text-success block mr-2">재직 여부</span>
+              <span class="text-nowrap block">현재 재직중</span>
             </template>
           </stats-card>
 
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="Performance"
+          <stats-card title="연락처"
                       type="gradient-info"
-                      sub-title="49,65%"
+                      sub-title="010-5629-0727"
                       icon="ni ni-chart-bar-32"
-                      class="mb-4">
+                      class="mb-4 phone-number">
 
             <template slot="footer">
-              <span class="text-success mr-2">54.8%</span>
-              <span class="text-nowrap">Since last month</span>
+              <span class="text-success block mr-2">E-mail</span>
+              <span class="text-nowrap block">qkrdltkr4513@gmail.com</span>
             </template>
           </stats-card>
         </b-col>
@@ -210,6 +226,23 @@
   };
 </script>
 <style>
+.wrapper
+  .card
+    .font-weight-bold {
+      font-size: 16px;
+    }
+    .block {
+      display: block;
+    }
+.wrapper
+  .card.military-period
+    .font-weight-bold {
+      font-size: 11px;
+    }
+  .card.phone-number
+    .font-weight-bold {
+      font-size: 14px;
+    }
 .el-table .cell{
   padding-left: 0px;
   padding-right: 0px;
