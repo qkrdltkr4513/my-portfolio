@@ -16,7 +16,7 @@
               <span class="text-nowrap">Since last month</span>
             </template>
           </stats-card>
-        </b-col>123123
+        </b-col>
         <b-col xl="3" md="6">
           <stats-card title="Total traffic"
                       type="gradient-orange"
