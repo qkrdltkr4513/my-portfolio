@@ -27,5 +27,7 @@ Vue.use(DashboardPlugin);
 new Vue({
   el: '#app',
   render: h => h(App),
+  components: { App },
+  template: '<App/>',
   router
 });
