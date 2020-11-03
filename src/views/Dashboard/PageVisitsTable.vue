@@ -4,7 +4,7 @@
     <template v-slot:header>
       <b-row align-v="center">
         <b-col>
-          <h3 class="mb-0">Page visits</h3>
+          <h3 class="mb-0">프로젝트 경험</h3>
         </b-col>
         <b-col class="text-right">
           <a href="#!" class="btn btn-sm btn-primary">See all</a>
@@ -15,28 +15,24 @@
     <el-table class="table-responsive table"
               :data="tableData"
               header-row-class-name="thead-light">
-      <el-table-column label="Page name"
+      <el-table-column label="프로젝트명"
                        min-width="130px"
                        prop="page">
         <template v-slot="{row}">
           <div class="font-weight-600">{{row.page}}</div>
         </template>
       </el-table-column>
-      <el-table-column label="Visitors"
-                       min-width="70px"
-                       prop="visitors">
+      <el-table-column label="프로젝트 기간"
+                       min-width="100px"
+                       prop="period">
       </el-table-column>
-      <el-table-column label="Unique users"
-                       min-width="90px"
-                       prop="unique">
+      <el-table-column label="사용기술"
+                       min-width="130px"
+                       prop="skill">
       </el-table-column>
-
-      <el-table-column label="Bounce rate"
-                       min-width="90px"
-                       prop="bounceRate">
-        <template v-slot="{row}">
-          {{row.bounceRate}}
-        </template>
+      <el-table-column label="완료여부"
+                       min-width="130px"
+                       prop="status">
       </el-table-column>
     </el-table>
   </b-card>
@@ -56,35 +52,89 @@
       return {
         tableData: [
           {
-            page: '/argon/',
-            visitors: '4,569',
-            unique: '340',
-            bounceRate: '46,53%'
+            page: 'BuildThing IAQ Cloud',
+            period: '20.09 ~ 20.10',
+            skill: 'Quasar Framework, Vue.js,',
+            status: '개발 완료'
           },
           {
-            page: '/argon/index.html',
-            visitors: '3,985',
-            unique: '319',
-            bounceRate: '46,53%'
+            page: 'BuildThing IAQ Admin 앱',
+            period: '20.08 ~ 20.09',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
           },
           {
-            page: '/argon/charts.html',
-            visitors: '3,513',
-            unique: '294',
-            bounceRate: '36,49%'
+            page: 'BuildThing IAQ 앱',
+            period: '20.08 ~ 20.08',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
           },
           {
-            page: '/argon/tables.html',
-            visitors: '2,050',
-            unique: '147',
-            bounceRate: '50,87%'
+            page: 'BuildThing IAQ Cloud',
+            period: '20.08 ~ 20.08',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
           },
           {
-            page: '/argon/profile.html',
-            visitors: '1,795',
-            unique: '190',
-            bounceRate: '46,53%'
-          }
+            page: 'B.IoT v1.3',
+            period: '20.03 ~ 20.10',
+            skill: 'Quasar Framework, Vue.js',
+            status: '유지보수 및 개발 / 완료'
+          },
+          {
+            page: '20년 홈페이지',
+            period: '20.02 ~ 20.03',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: 'B.IoT v1.2',
+            period: '19.05 ~ 20.02',
+            skill: 'Quasar Framework, Vue.js',
+            status: '운영 및 유지보수 완료'
+          },
+          {
+            page: 'A4S',
+            period: '19.05 ~ 19.10',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: 'BuildThing Cloud',
+            period: '19.05 ~ 19.05',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: 'MES 2.0',
+            period: '18.04 ~ 18.12',
+            skill: 'Quasar Framework, Vue.js',
+            status: '유지보수 및 운영 중 퇴사'
+          },
+          {
+            page: 'SWC 웹',
+            period: '17.11 ~ 18.03',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: 'SWC 키오스크',
+            period: '18.02 ~ 18.03',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: '통합 IT 시스템 구축',
+            period: '19.05 ~ 19.05',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
+          {
+            page: 'SWC Wall-Pad',
+            period: '17.04 ~ 17.05',
+            skill: 'Quasar Framework, Vue.js',
+            status: '개발 완료'
+          },
         ]
       }
     }

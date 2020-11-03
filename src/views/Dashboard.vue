@@ -83,8 +83,7 @@
           <card type="default" header-classes="bg-transparent">
             <b-row align-v="center" slot="header">
               <b-col>
-                <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
-                <h5 class="h3 text-white mb-0">Sales value</h5>
+                <h5 class="h3 text-white mb-0">프로젝트 경험</h5>
               </b-col>
               <b-col>
                 <b-nav class="nav-pills justify-content-end">
@@ -126,12 +125,12 @@
               </b-col>
             </b-row>
 
-            <bar-chart
+            <!-- <bar-chart
               :height="350"
               ref="barChart"
               :chart-data="redBarChart.chartData"
             >
-            </bar-chart>
+            </bar-chart> -->
           </card>
         </b-col>
       </b-row>
@@ -178,18 +177,11 @@
       return {
         bigLineChart: {
           allData: [
-            [0, 20, 10, 30, 15, 40, 20, 60, 60],
-            [0, 20, 5, 25, 10, 30, 15, 40, 40]
+            [10, 20, 30, 30, 40, 50, 60, 90],
           ],
           activeIndex: 0,
           chartData: {
-            datasets: [
-              {
-                label: 'Performance',
-                data: [0, 20, 10, 30, 15, 40, 20, 60, 60],
-              }
-            ],
-            labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2'],
           },
           extraOptions: chartConfigs.blueChartOptions,
         },
@@ -197,8 +189,6 @@
           chartData: {
             labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
             datasets: [{
-              label: 'Sales',
-              data: [25, 20, 30, 22, 17, 29]
             }]
           },
           extraOptions: chartConfigs.blueChartOptions
@@ -210,11 +200,11 @@
         let chartData = {
           datasets: [
             {
-              label: 'Performance',
+              label: this.bigLineChart.label,
               data: this.bigLineChart.allData[index]
             }
           ],
-          labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2'],
         };
         this.bigLineChart.chartData = chartData;
         this.bigLineChart.activeIndex = index;
