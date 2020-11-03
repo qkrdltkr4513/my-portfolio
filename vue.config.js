@@ -19,7 +19,8 @@ module.exports = {
     sourceMap: process.env.NODE_ENV !== 'production'
   },
   outputDir: path.resolve(__dirname, './docs'),
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/docs'
-  : '/'
+  publicPath: ''
+  // publicPath: process.env.NODE_ENV === 'production'
+  // ? '/docs'
+  // : '/'
 };
