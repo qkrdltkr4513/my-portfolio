@@ -9,19 +9,19 @@
       <b-col>
         <div class="profile-intro justify-content-center">
           <div class="mb-4">
-            <p class="heading">경력사항 (3년 7개월)</p>
+            <i class="ic-icons ni ni-laptop"></i><p class="title heading">경력사항 (3년 7개월)</p>
             <span class="description">(주)빌드잇 (2019.04 ~ 재직중)</span>
             <span class="description">(주)아토스 (2017.01 ~ 2018.12)</span>
           </div>
           <hr class="my-4">
           <div class="mb-4">
-            <p class="heading">학력사항</p>
+            <i class="ic-icons ni ni-hat-3"></i><p class="title heading">학력사항</p>
             <span class="description">상명대학교 컴퓨터소프트웨어공학과 졸업 (2011.03 ~ 2017.02)</span>
             <span class="description">아산고등학교 졸업 (2008.03 ~ 2011.02)</span>
           </div>
           <hr class="my-4">
           <div class="mb-4">
-            <span class="intro-title heading">교내활동 및 대외활동</span>
+            <i class="ic-icons ni ni-user-run"></i><span class="intro-title title heading">교내활동 및 대외활동</span>
             <!-- <span class="description">29</span> -->
             <el-table class="table-responsive table project-history"
                       :data="activationData"
@@ -50,7 +50,7 @@
 
           <hr class="my-4">
           <div class="mb-4">
-            <span class="intro-title heading">교육 및 스터디</span>
+            <i class="ic-icons ni ni-atom"></i><span class="intro-title title heading">교육 및 스터디</span>
             <el-table class="table-responsive table project-history"
                       :data="educationAndStudy"
                       header-row-class-name="thead-light">
@@ -80,7 +80,7 @@
             </el-table>
           </div>
           <div class="mb-4">
-            <p class="heading">자격사항</p>
+            <i class="ic-icons ni ni-badge"></i><p class="title heading">자격사항</p>
             <span class="description">지게차운전 (한국기술자격검정원 / 2014.09)</span>
             <span class="description">운전면허 1종 보통 (충남지방경찰청 / 2011.02)</span>
           </div>
@@ -178,6 +178,15 @@ export default {
 .profile-intro .intro-title {
   display: block;
   margin-bottom: 1rem;
+}
+.profile-intro .ic-icons{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-right: 6px;
+}
+.profile-intro .title {
+  display: inline-block;
 }
 .profile-intro .description {
   display: block;

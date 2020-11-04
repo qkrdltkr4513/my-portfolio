@@ -1,13 +1,13 @@
 <template>
   <div class="portfolio-wrapper">
-    <base-header class="pb-6 pb-8 pt-5 pt-md-8 bg-gradient-success">
+    <base-header class="pb-6 pb-8 pt-5 pt-md-8 portfolio-background">
       <!-- Card stats -->
       <b-row>
         <b-col xl="3" md="6">
           <stats-card title="개인정보"
                       type="gradient-red"
                       sub-title="박이삭"
-                      icon="ni ni-active-40"
+                      icon="ni ni-circle-08"
                       class="mb-4">
 
             <template slot="footer">
@@ -28,7 +28,7 @@
           <stats-card title="병역사항"
                       type="gradient-orange"
                       sub-title="2012.01 ~ 2013.10"
-                      icon="ni ni-chart-pie-35"
+                      icon="ni ni-user-run"
                       class="mb-4 military-period">
 
             <template slot="footer">
@@ -49,7 +49,7 @@
           <stats-card title="경력"
                       type="gradient-green"
                       sub-title="3년 7개월"
-                      icon="ni ni-money-coins"
+                      icon="ni ni-laptop"
                       class="mb-4">
 
             <template slot="footer">
@@ -63,7 +63,7 @@
           <stats-card title="연락처"
                       type="gradient-info"
                       sub-title="010-5629-0727"
-                      icon="ni ni-chart-bar-32"
+                      icon="ni ni-mobile-button"
                       class="mb-4 phone-number">
 
             <template slot="footer">
@@ -396,6 +396,9 @@
 .el-table.table-dark td,
 .el-table.table-dark th.is-leaf{
   border-bottom: none;
+}
+.portfolio-wrapper .portfolio-background {
+  background: linear-gradient(87deg, #5eb3e482 0, #2d50ce 100%) !important;
 }
 
 .portfolio-wrapper .detail-card-block {

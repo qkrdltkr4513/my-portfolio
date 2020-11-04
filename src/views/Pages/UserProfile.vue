@@ -43,6 +43,6 @@
 <style>
 .profile-wrapper
   .profile-background {
-    background: linear-gradient(87deg, #5eb3e463 0, #2d84ce8f 100%) !important
+    background: linear-gradient(87deg, #5eb3e482 0, #2d50ce 100%) !important;
   }
 </style>

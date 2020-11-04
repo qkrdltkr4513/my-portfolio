@@ -29,10 +29,10 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="수준" min-width="110px" prop="level">
+      <el-table-column label="수준" min-width="100px" prop="level">
       </el-table-column>
 
-      <el-table-column label="숙련도" min-width="220px" prop="figure">
+      <el-table-column label="숙련도" min-width="250px" prop="figure">
         <template v-slot="{row}">
           <div class="d-flex align-items-center">
             <span class="mr-2">{{row.figure}}%</span>

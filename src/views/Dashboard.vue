@@ -1,14 +1,13 @@
 <template>
   <div class="dashboard-wrapper">
-
-    <base-header class="pb-6 pb-8 pt-5 pt-md-8 bg-gradient-success">
+    <base-header class="pb-6 pb-8 pt-5 pt-md-8 dashboard-background">
       <!-- Card stats -->
       <b-row>
         <b-col xl="3" md="6">
           <stats-card title="개인정보"
                       type="gradient-red"
                       sub-title="박이삭"
-                      icon="ni ni-active-40"
+                      icon="ni ni-circle-08"
                       class="mb-4">
 
             <template slot="footer">
@@ -29,7 +28,7 @@
           <stats-card title="병역사항"
                       type="gradient-orange"
                       sub-title="2012.01 ~ 2013.10"
-                      icon="ni ni-chart-pie-35"
+                      icon="ni ni-user-run"
                       class="mb-4 military-period">
 
             <template slot="footer">
@@ -50,7 +49,7 @@
           <stats-card title="경력"
                       type="gradient-green"
                       sub-title="3년 7개월"
-                      icon="ni ni-money-coins"
+                      icon="ni ni-laptop"
                       class="mb-4">
 
             <template slot="footer">
@@ -64,7 +63,7 @@
           <stats-card title="연락처"
                       type="gradient-info"
                       sub-title="010-5629-0727"
-                      icon="ni ni-chart-bar-32"
+                      icon="ni ni-mobile-button"
                       class="mb-4 phone-number">
 
             <template slot="footer">
@@ -83,7 +82,7 @@
           <card type="default" header-classes="bg-transparent">
             <b-row align-v="center" slot="header">
               <b-col>
-                <h5 class="h3 text-white mb-0">프로젝트 경험</h5>
+                <h5 class="h3 text-white mb-0">프로젝트 누적 수</h5>
               </b-col>
               <b-col>
                 <b-nav class="nav-pills justify-content-end">
@@ -92,16 +91,8 @@
                        :active="bigLineChart.activeIndex === 0"
                        link-classes="py-2 px-3"
                        @click.prevent="initBigChart(0)">
-                      <span class="d-none d-md-block">Month</span>
-                      <span class="d-md-none">M</span>
-                  </b-nav-item>
-                  <b-nav-item
-                    link-classes="py-2 px-3"
-                    :active="bigLineChart.activeIndex === 1"
-                    @click.prevent="initBigChart(1)"
-                  >
-                    <span class="d-none d-md-block">Week</span>
-                    <span class="d-md-none">W</span>
+                      <span class="d-none d-md-block">전체</span>
+                      <span class="d-md-none">전체</span>
                   </b-nav-item>
                 </b-nav>
               </b-col>
@@ -120,17 +111,17 @@
           <card header-classes="bg-transparent">
             <b-row align-v="center" slot="header">
               <b-col>
-                <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                <h5 class="h3 mb-0">Total orders</h5>
+                <h6 class="text-uppercase text-muted ls-1 mb-1"></h6>
+                <h5 class="h3 mb-0">프로젝트 진행 수</h5>
               </b-col>
             </b-row>
 
-            <!-- <bar-chart
+            <bar-chart
               :height="350"
               ref="barChart"
               :chart-data="redBarChart.chartData"
             >
-            </bar-chart> -->
+            </bar-chart>
           </card>
         </b-col>
       </b-row>
@@ -145,12 +136,6 @@
           <social-traffic-table></social-traffic-table>
         </b-col>
       </b-row>
-      <!-- <b-row class="mt-5">
-        <b-col xl="8" class="mb-5 mb-xl-0">
-          <social-traffic-table></social-traffic-table>
-        </b-col>
-      </b-row> -->
-      <!--End tables-->
     </b-container>
 
   </div>
@@ -182,18 +167,25 @@
       return {
         bigLineChart: {
           allData: [
-            [10, 20, 30, 30, 40, 50, 60, 90],
+            [1, 3, 4, 5, 6, 8, 10, 15],
           ],
+          label: '프로젝트 누적 수',
           activeIndex: 0,
           chartData: {
-            labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2'],
+            datasets: [{
+              label: '프로젝트 누적 수'
+            }]
+            // labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2'],
           },
           extraOptions: chartConfigs.blueChartOptions,
         },
         redBarChart: {
           chartData: {
-            labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2'],
+            // datasets: [1, 2, 3, 4, 5, 6]
             datasets: [{
+              label: '프로젝트 진행 수',
+              data: [1, 2, 1, 1, 1, 2, 2, 5]
             }]
           },
           extraOptions: chartConfigs.blueChartOptions
@@ -221,6 +213,9 @@
   };
 </script>
 <style>
+.dashboard-wrapper .dashboard-background {
+  background: linear-gradient(87deg, #5eb3e482 0, #2d50ce 100%) !important;
+}
 .dashboard-wrapper .card .font-weight-bold {
   font-size: 16px;
 }
