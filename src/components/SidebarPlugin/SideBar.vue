@@ -11,51 +11,13 @@
 
             <slot name="mobile-right">
                 <ul class="nav align-items-center d-md-none">
-                    <base-dropdown class="nav-item" menu-on-right tag="li" title-tag="a">
-                        <a slot="title-container" class="nav-link nav-link-icon" href="#" role="button"
-                           aria-haspopup="true" aria-expanded="false">
-                            <i class="ni ni-bell-55"></i>
-                        </a>
-
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </base-dropdown>
-                    <base-dropdown class="nav-item" menu-on-right tag="li" title-tag="a">
-                        <a slot="title-container" class="nav-link" href="#" role="button">
-                            <div class="media align-items-center">
-                              <span class="avatar avatar-sm rounded-circle">
-                                <img alt="Image placeholder" src="img/theme/team-1.jpg">
-                              </span>
-                            </div>
-                        </a>
-
-                        <div class=" dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome!</h6>
-                        </div>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-single-02"></i>
-                            <span>My profile</span>
-                        </router-link>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-settings-gear-65"></i>
-                            <span>Settings</span>
-                        </router-link>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-calendar-grid-58"></i>
-                            <span>Activity</span>
-                        </router-link>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-support-16"></i>
-                            <span>Support</span>
-                        </router-link>
-                        <div class="dropdown-divider"></div>
-                        <a href="#!" class="dropdown-item">
-                            <i class="ni ni-user-run"></i>
-                            <span>Logout</span>
-                        </a>
-                    </base-dropdown>
+                  <a slot="title-container" class="nav-link" href="#" role="button">
+                      <div class="media align-items-center">
+                        <span class="avatar avatar-sm rounded-circle">
+                          <img alt="Image placeholder" src="img/portfolio/my-profile.jpg">
+                        </span>
+                      </div>
+                  </a>
                 </ul>
             </slot>
             <slot></slot>
@@ -63,10 +25,8 @@
 
                 <div class="navbar-collapse-header d-md-none">
                     <div class="row">
-                        <div class="col-6 collapse-brand">
-                            <router-link to="/">
-                                <img :src="logo">
-                            </router-link>
+                        <div class="font-weight-bold col-6 collapse-brand">
+                            Front-End Developer I.Sak
                         </div>
                         <div class="col-6 collapse-close">
                             <navbar-toggle-button @click.native="closeSidebar"></navbar-toggle-button>
