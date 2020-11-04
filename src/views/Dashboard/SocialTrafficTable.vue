@@ -13,7 +13,7 @@
           <!-- <h6 class="mb-0"></h6> -->
         </b-col>
         <b-col class="text-right">
-          <base-button size="sm" type="primary">See all</base-button>
+          <a href="#/skill" class="btn btn-sm btn-primary">See all</a>
         </b-col>
       </b-row>
     </template>

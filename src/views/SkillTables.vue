@@ -295,7 +295,7 @@
 .skill-wrapper .detail-card-block .skill-desc {
   font-weight: 400;
 }
-.skill-wrapper .base-button {
+.skill-wrapper .btn-sm.btn-primary {
   display: none;
 }
 </style>
