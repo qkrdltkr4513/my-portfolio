@@ -34,7 +34,7 @@
             </el-table-column>
 
             <el-table-column label="진행 상태"
-                             min-width="80px"
+                             min-width="100px"
                              prop="status">
                 <template v-slot="{row}">
                     <badge class="badge-dot mr-4" type="">

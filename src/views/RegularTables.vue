@@ -86,7 +86,7 @@
     <div class="container-fluid detail-card-block">
       <b-card v-for="(item, index) in projectList"
         :title="item.name"
-        img-src="https://demos.creative-tim.com/argon-dashboard-pro/assets/img/theme/img-1-1000x600.jpg"
+        :img-src="item.img"
         img-alt="Image"
         img-top
         tag="article"
@@ -155,6 +155,7 @@
         users,
         projectList: [
           {
+            img: 'img/portfolio/img-iaq-cloud-dashboard.png',
             name: 'BuildThing IAQ Cloud (자사 서비스)',
             skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
             intro: '신규 개발 제품 IAQ (실내 공기질 측정), Gateway를 통해 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공',
@@ -171,6 +172,7 @@
             period: '2020.08 ~ 2020.09'
           },
           {
+            img: 'img/portfolio/img-cloud-beacon.png',
             name: 'BuildThing Cloud (자사 서비스)',
             skill: 'Quasar Framework, Vue.js, JavaScript, Flask Babel, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)과 BuildThing Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘과 게이트웨이로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 웹 서비스',
@@ -184,6 +186,7 @@
             period: '2020.08 ~ 2020.09'
           },
           {
+            img: 'img/portfolio/img-iaq-admin.png',
             name: 'BuildThing IAQ Admin 앱 (자사 서비스)',
             skill: 'Quasar Framework, Cordova, Vue.js, JavaScript, Stylus, Open Api, Kendo UI',
             intro: '신규 개발 제품 IAQ(실내 공기질 측정), Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결, 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공해주며 공기질 상태에 따라 WebSocket을 통한 푸시 알림 제공',
@@ -199,6 +202,7 @@
             period: '2020.08 ~ 2020.08'
           },
           {
+            img: 'img/portfolio/img-buildthing-admin.png',
             name: 'BuildThing Admin 앱 (자사 서비스)',
             skill: 'Quasar Framework, Cordova, Electron, Vue.js, JavaScript, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)과 BuildThing Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘과 게이트웨이부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 앱',
@@ -212,6 +216,7 @@
             period: '2020.08 ~ 2020.08'
           },
           {
+            img: 'img/portfolio/img-iaq-scan.png',
             name: 'BuildThing IAQ 앱 (자사 서비스)',
             skill: 'Quasar Framework, Cordova, Vue.js, JavaScript, Stylus, Open Api, Kendo UI',
             intro: '신규 개발 제품 IAQ(실내 공기질 측정)를 통해 주변 IAQ 기기를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 현재 위치 한 건물 내의 실내 공기질 수치 정보 제공 및 실내 공기질 요소별 등급과 환기 조치 가이드 제공',
@@ -227,6 +232,7 @@
             period: '2020.08 ~ 2020.08'
           },
           {
+            img: 'img/portfolio/img-smart-building.jpg',
             name: 'B.IoT v1.3 (스마트 빌딩 솔루션)',
             skill: 'Spring boot Framework, MVVM pattern, jQuery, JavaScript, GridStack.js, i18n.js, HTML5, CSS3, Kendo UI',
             intro: '건물 관리 자동화와 건물 에너지 절감을 위한 솔루션의 개발을 위해 진행 되었고 Web 화면을 통해 특정 건물에 설치된 각 종 기기들을 관리하고 실시간으로 모니터링 및 원격 제어하며, 해당 기기들의 이력과 통계 데이터를 확인할 수 있습니다. 또한 실시간 알람을 통해 건물 내 주요 이슈 현황을 파악',
@@ -241,6 +247,7 @@
             period: '2020.03 ~ 2020.10'
           },
           {
+            img: 'img/portfolio/img-buildit-homepage.png',
             name: '자사 홈페이지',
             skill: 'Quasar Framework, Vue.js, TypeScript, JavaScript, i18n.js, Stylus',
             intro: '20년도 자사 홈페이지 리뉴얼',
@@ -256,6 +263,7 @@
             period: '2020.02 ~ 2020.03'
           },
           {
+            img: 'img/portfolio/img-smart-building.jpg',
             name: 'B.IoT v1.2 (스마트 빌딩 솔루션)',
             skill: 'Spring boot Framework, MVVM pattern, jQuery, JavaScript, GridStack.js, i18n.js, HTML5, CSS3, Kendo UI',
             intro: '신규 개발 제품 IAQ (실내 공기질 측정), Gateway를 통해 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공',
@@ -269,6 +277,7 @@
             period: '2019.05 ~ 2020.02'
           },
           {
+            img: 'img/portfolio/img-security.jpg',
             name: 'A4S (보안 정보 모니터링 솔루션)',
             skill: 'Spring boot Framework, Vue.js, jQuery, JavaScript, GridStack.js, Stylus, Kendo UI',
             intro: '연구 과제로 사용자 권한 별, 툴 별, 과제 별, 조직 별의 보안 관련 정보의 조회가 가능하며 각 종 차트를 통한 보안 관련 정보 시각화 및 사용자가 직접 추가/편집이 가능한 사용자 정의형 대시보드 와 사용자 및 권한 관리가 주요 기능인 웹 서비스',
@@ -283,6 +292,7 @@
             period: '2019.05 ~ 2019.10'
           },
           {
+            img: 'img/portfolio/img-buildthing-cloud.png',
             name: 'BuildThing Cloud (자사 서비스)',
             skill: 'Quasar Framework, Vue.js, JavaScript, Flask Babel, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)으로 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘으로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 서비스',
@@ -297,6 +307,7 @@
             period: '2019.05 ~ 2019.05'
           },
           {
+            img: 'img/portfolio/img-factory.jpg',
             name: 'MES 시스템 2.0',
             skill: 'Spring Framework, MVC pattern, JavaScript, HTML, CSS3, Oracle',
             intro: 'MES 시스템 유지보수 및 운영을 통해 현장 이슈 대응과 업무 Flow 개선으로 생산성 향상과 편의 제공',
@@ -311,6 +322,7 @@
             period: '2018.04 ~ 2018.12'
           },
           {
+            img: 'img/portfolio/img-swc-web.png',
             name: 'SWC 웹 (자사 서비스)',
             skill: 'Spring Framework, MVC pattern, Java, Mybatis, Oracle, jQuery, JavaScript, HTML5, CSS3',
             intro: '입주민 및 외부인이 웹페이지를 통하여 단지 내의 시설 이용 활성화 및 편의 제공해주는 아파트 커뮤니티 서비스',
@@ -324,6 +336,7 @@
             period: '2017.11 ~ 2018.03'
           },
           {
+            img: 'img/portfolio/img-swc-web.png',
             name: 'SWC 키오스크 (자사 서비스)',
             skill: 'Spring Framework, MVC pattern, Java, Mybatis, Oracle, jQuery, JavaScript, HTML5, CSS3',
             intro: '입주민 및 외부인이 키오스크를 통하여 단지 내의 시설 이용 활성화 및 편의 제공해주는 아파트 커뮤니티 서비스',
@@ -337,6 +350,7 @@
             period: '2018.02 ~ 2018.03'
           },
           {
+            img: 'img/portfolio/img-erp.jpg',
             name: '통합 IT 시스템 구축',
             skill: 'X-PLATFORM, JavaScript, Oracle',
             intro: 'ERP 시스템 구축으로 보다 효율적인 업무 진행과 생산성 향상',
@@ -350,6 +364,7 @@
             period: '2017.06 ~ 2017.10'
           },
           {
+            img: 'img/portfolio/img-swc-web.png',
             name: 'SWC Wall-Pad (자사 서비스)',
             skill: 'Spring Framework, MVC pattern, Java, Mybatis, Oracle, jQuery, JavaScript, HTML5, CSS3',
             intro: '입주민이 실내에서 Wall-Pad를 통하여 단지 내의 시설 예약 및 관리비 정산 등의 편의를 제공해주는 아파트 커뮤니티 서비스',
