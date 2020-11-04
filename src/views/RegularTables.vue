@@ -155,7 +155,7 @@
         users,
         projectList: [
           {
-            img: 'img/portfolio/img-iaq-cloud-dashboard.png',
+            img: '/img/portfolio/img-iaq-cloud-dashboard.png',
             name: 'BuildThing IAQ Cloud (자사 서비스)',
             skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
             intro: '신규 개발 제품 IAQ (실내 공기질 측정), Gateway를 통해 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공',
