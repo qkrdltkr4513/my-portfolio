@@ -247,7 +247,7 @@
             period: '2020.03 ~ 2020.10'
           },
           {
-            img: 'img/portfolio/img-buildit-homepage.jpg',
+            img: 'img/portfolio/img-buildit-homepage.PNG',
             name: '자사 홈페이지',
             skill: 'Quasar Framework, Vue.js, TypeScript, JavaScript, i18n.js, Stylus',
             intro: '20년도 자사 홈페이지 리뉴얼',
