@@ -32,7 +32,7 @@
         <sidebar-item
               :link="{
                 name: '사용 가능 기술',
-                path: '/profile',
+                path: '/skill',
                 icon: 'ni ni-bullet-list-67 text-red'
                 }">
         </sidebar-item>

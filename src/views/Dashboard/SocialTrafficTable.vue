@@ -37,6 +37,16 @@
           <div class="d-flex align-items-center">
             <span class="mr-2">{{row.figure}}%</span>
             <base-progress :type="row.progressType" :value="row.figure" />
+            <span
+              v-show="row.name === 'Java' || row.name === 'Oracle' || row.name === 'Spring Framework' ? false : true"
+              :class="[row.name !== 'Java' && row.name !== 'Oracle' && row.name !== 'Spring Framework' ? 'ic-arrow text-success' : 'text-danger']">
+              <i class="fa fa-arrow-up"></i>
+            </span>
+            <span
+              v-show="row.name === 'Java' || row.name === 'Oracle' || row.name === 'Spring Framework' ? true : false"
+              :class="[row.name === 'Java' || row.name === 'Oracle' || row.name === 'Spring Framework' ? 'ic-arrow text-danger' : 'text-success']">
+              <i class="fa fa-arrow-down"></i>
+            </span>
           </div>
         </template>
       </el-table-column>
@@ -168,6 +178,10 @@
   :hover {
     cursor: pointer;
   }
+
+.skill-stack .ic-arrow {
+  margin-left: 15px;
+}
 
 .info-message {
   position: absolute;

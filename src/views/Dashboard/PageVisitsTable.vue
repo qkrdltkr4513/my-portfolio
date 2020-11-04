@@ -7,7 +7,7 @@
           <h3 class="mb-0">프로젝트 경험</h3>
         </b-col>
         <b-col class="text-right">
-          <a href="#!" class="btn btn-sm btn-primary">See all</a>
+          <a href="#/portfolio" class="btn btn-sm btn-primary">See all</a>
         </b-col>
       </b-row>
     </template>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dashboard-wrapper">
 
     <base-header class="pb-6 pb-8 pt-5 pt-md-8 bg-gradient-success">
       <!-- Card stats -->
@@ -221,23 +221,18 @@
   };
 </script>
 <style>
-.wrapper
-  .card
-    .font-weight-bold {
-      font-size: 16px;
-    }
-    .block {
-      display: block;
-    }
-.wrapper
-  .card.military-period
-    .font-weight-bold {
-      font-size: 14px;
-    }
-  .card.phone-number
-    .font-weight-bold {
-      font-size: 14px;
-    }
+.dashboard-wrapper .card .font-weight-bold {
+  font-size: 16px;
+}
+.dashboard-wrapper .card .block {
+  display: block;
+}
+.dashboard-wrapper .card.military-period .font-weight-bold {
+  font-size: 13px;
+}
+.dashboard-wrapper .card.phone-number .font-weight-bold {
+  font-size: 13px;
+}
 .main-content
   .header {
     padding-top: 6rem !important

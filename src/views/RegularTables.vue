@@ -413,21 +413,16 @@
 .portfolio-wrapper .detail-card-block .period {
   font-weight: 400;
 }
-.wrapper
-  .card
-    .font-weight-bold {
-      font-size: 16px;
-    }
-    .block {
-      display: block;
-    }
-.wrapper
-  .card.military-period
-    .font-weight-bold {
-      font-size: 14px;
-    }
-  .card.phone-number
-    .font-weight-bold {
-      font-size: 14px;
-    }
+.portfolio-wrapper .card .font-weight-bold {
+  font-size: 16px;
+}
+.portfolio-wrapper .card .block {
+  display: block;
+}
+.portfolio-wrapper .card.military-period .font-weight-bold {
+  font-size: 13px;
+}
+.portfolio-wrapper .card.phone-number .font-weight-bold {
+  font-size: 13px;
+}
 </style>
