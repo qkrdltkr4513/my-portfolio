@@ -5,7 +5,7 @@
       <template slot="links">
         <sidebar-item
           :link="{
-            name: 'Dashboard',
+            name: '대시보드',
             path: '/dashboard',
             icon: 'ni ni-tv-2 text-primary',
           }"
@@ -23,17 +23,25 @@
 
         <sidebar-item
               :link="{
-                name: 'User Profile',
+                name: '프로필',
                 path: '/profile',
-                icon: 'ni ni-single-02 text-yellow'
+                icon: 'ni ni-badge text-yellow'
+                }">
+        </sidebar-item>
+
+        <sidebar-item
+              :link="{
+                name: '사용 가능 기술',
+                path: '/profile',
+                icon: 'ni ni-bullet-list-67 text-red'
                 }">
         </sidebar-item>
 
         <sidebar-item
                 :link="{
-                  name: 'Tables',
-                  path: '/tables',
-                  icon: 'ni ni-bullet-list-67 text-red'
+                  name: '포트폴리오',
+                  path: '/portfolio',
+                  icon: 'ni ni-album-2 text-blue'
                 }">
         </sidebar-item>
 

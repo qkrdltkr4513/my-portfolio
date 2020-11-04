@@ -1,33 +1,40 @@
 <template>
-    <b-card no-body>
+    <b-card no-body class="portfolio-summary-wrapper">
         <b-card-header class="border-0">
-            <h3 class="mb-0">Light table</h3>
+            <h3 class="mb-0">프로젝트 경험 요약</h3>
         </b-card-header>
 
-        <el-table class="table-responsive table"
+        <el-table class="table-responsive table project-summary"
                   header-row-class-name="thead-light"
                   :data="projects">
-            <el-table-column label="Project"
-                             min-width="310px"
-                             prop="name">
+            <el-table-column label="프로젝트 명"
+                             min-width="160px"
+                             prop="name"
+                             class="summary-table">
                 <template v-slot="{row}">
                     <b-media no-body class="align-items-center">
-                        <a href="#" class="avatar rounded-circle mr-3">
-                            <img alt="Image placeholder" :src="row.img">
-                        </a>
-                        <b-media-body>
-                            <span class="font-weight-600 name mb-0 text-sm">{{row.title}}</span>
-                        </b-media-body>
+                      <span class="font-weight-600 name mb-0 text-sm">{{row.title}}</span>
                     </b-media>
                 </template>
             </el-table-column>
-            <el-table-column label="Budget"
-                             prop="budget"
+
+            <el-table-column label="기간"
+                             prop="period"
+                             min-width="100px">
+            </el-table-column>
+
+            <el-table-column label="담당 업무"
+                             prop="type"
                              min-width="140px">
             </el-table-column>
 
-            <el-table-column label="Status"
-                             min-width="170px"
+            <el-table-column label="사용 기술"
+                             prop="useSkill"
+                             min-width="310px">
+            </el-table-column>
+
+            <el-table-column label="진행 상태"
+                             min-width="80px"
                              prop="status">
                 <template v-slot="{row}">
                     <badge class="badge-dot mr-4" type="">
@@ -37,44 +44,11 @@
                 </template>
             </el-table-column>
 
-            <el-table-column label="Users" min-width="190px">
-                <div class="avatar-group">
-                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip"
-                       data-original-title="Ryan Tompson">
-                        <img alt="Image placeholder" src="img/theme/team-1.jpg">
-                    </a>
-                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip"
-                       data-original-title="Romina Hadid">
-                        <img alt="Image placeholder" src="img/theme/team-2.jpg">
-                    </a>
-                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip"
-                       data-original-title="Alexander Smith">
-                        <img alt="Image placeholder" src="img/theme/team-3.jpg">
-                    </a>
-                    <a href="#" class="avatar avatar-sm rounded-circle" data-toggle="tooltip"
-                       data-original-title="Jessica Doe">
-                        <img alt="Image placeholder" src="img/theme/team-4.jpg">
-                    </a>
-                </div>
-            </el-table-column>
-
-            <el-table-column label="Completion"
-                             prop="completion"
-                             min-width="240px">
-                <template v-slot="{row}">
-                    <div class="d-flex align-items-center">
-                        <span class="completion mr-2">{{row.completion}}%</span>
-                        <div>
-                            <base-progress :type="row.statusType" :value="row.completion"/>
-                        </div>
-                    </div>
-                </template>
-            </el-table-column>
         </el-table>
 
-        <b-card-footer class="py-4 d-flex justify-content-end">
+        <!-- <b-card-footer class="py-4 d-flex justify-content-end">
             <base-pagination v-model="currentPage" :per-page="10" :total="50"></base-pagination>
-        </b-card-footer>
+        </b-card-footer> -->
     </b-card>
 </template>
 <script>
@@ -94,3 +68,10 @@
     }
   }
 </script>
+<style>
+.portfolio-summary-wrapper .project-summary .el-table__body-wrapper {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+</style>

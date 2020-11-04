@@ -145,6 +145,11 @@
           <social-traffic-table></social-traffic-table>
         </b-col>
       </b-row>
+      <!-- <b-row class="mt-5">
+        <b-col xl="8" class="mb-5 mb-xl-0">
+          <social-traffic-table></social-traffic-table>
+        </b-col>
+      </b-row> -->
       <!--End tables-->
     </b-container>
 
@@ -227,12 +232,16 @@
 .wrapper
   .card.military-period
     .font-weight-bold {
-      font-size: 11px;
+      font-size: 14px;
     }
   .card.phone-number
     .font-weight-bold {
       font-size: 14px;
     }
+.main-content
+  .header {
+    padding-top: 6rem !important
+  }
 .el-table .cell{
   padding-left: 0px;
   padding-right: 0px;

@@ -12,10 +12,10 @@
       </b-row>
     </template>
 
-    <el-table class="table-responsive table"
+    <el-table class="table-responsive table project-history"
               :data="tableData"
               header-row-class-name="thead-light">
-      <el-table-column label="프로젝트명"
+      <el-table-column label="프로젝트 명"
                        min-width="130px"
                        prop="page">
         <template v-slot="{row}">
@@ -26,11 +26,11 @@
                        min-width="100px"
                        prop="period">
       </el-table-column>
-      <el-table-column label="사용기술"
+      <el-table-column label="사용 기술"
                        min-width="130px"
                        prop="skill">
       </el-table-column>
-      <el-table-column label="완료여부"
+      <el-table-column label="진행 상태"
                        min-width="130px"
                        prop="status">
       </el-table-column>
@@ -141,4 +141,8 @@
   }
 </script>
 <style>
+.project-history {
+  max-height: 500px;
+  overflow: auto;
+}
 </style>
