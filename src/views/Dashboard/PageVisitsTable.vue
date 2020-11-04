@@ -54,85 +54,91 @@
           {
             page: 'BuildThing IAQ Cloud',
             period: '20.09 ~ 20.10',
-            skill: 'Quasar Framework, Vue.js,',
+            skill: 'Quasar Framework, Vue.js, Stylus etc..',
+            status: '개발 완료'
+          },
+          {
+            page: 'BuildThing Cloud',
+            period: '20.08 ~ 20.09',
+            skill: 'Quasar Framework, Vue.js, Stylus etc..',
             status: '개발 완료'
           },
           {
             page: 'BuildThing IAQ Admin 앱',
             period: '20.08 ~ 20.09',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Quasar Framework, Cordova, Vue.js etc..',
             status: '개발 완료'
           },
           {
-            page: 'BuildThing IAQ 앱',
+            page: 'BuildThing Admin 앱',
             period: '20.08 ~ 20.08',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Quasar Framework, Cordova, Electron etc..',
             status: '개발 완료'
           },
           {
-            page: 'BuildThing IAQ Cloud',
-            period: '20.08 ~ 20.08',
-            skill: 'Quasar Framework, Vue.js',
+            page: 'BuildThing Cloud',
+            period: '20.08 ~ 20.09',
+            skill: 'Quasar Framework, Vue.js, Stylus etc..',
             status: '개발 완료'
           },
           {
             page: 'B.IoT v1.3',
             period: '20.03 ~ 20.10',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring boot Framework, jQuery, JavaScript etc..',
             status: '유지보수 및 개발 / 완료'
           },
           {
             page: '20년 홈페이지',
             period: '20.02 ~ 20.03',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Quasar Framework, Vue.js, TypeScript etc..',
             status: '개발 완료'
           },
           {
             page: 'B.IoT v1.2',
             period: '19.05 ~ 20.02',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring boot Framework, jQuery, JavaScript etc..',
             status: '운영 및 유지보수 완료'
           },
           {
             page: 'A4S',
             period: '19.05 ~ 19.10',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring boot Framework, Vue.js, jQuery etc..',
             status: '개발 완료'
           },
           {
             page: 'BuildThing Cloud',
             period: '19.05 ~ 19.05',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Quasar Framework, Vue.js, JavaScript etc..',
             status: '개발 완료'
           },
           {
             page: 'MES 2.0',
             period: '18.04 ~ 18.12',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring Framework, JavaScript, HTML etc..',
             status: '유지보수 및 운영 중 퇴사'
           },
           {
             page: 'SWC 웹',
             period: '17.11 ~ 18.03',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring Framework, jQuery, JavaScript etc..',
             status: '개발 완료'
           },
           {
             page: 'SWC 키오스크',
             period: '18.02 ~ 18.03',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring Framework, jQuery, JavaScript etc..',
             status: '개발 완료'
           },
           {
             page: '통합 IT 시스템 구축',
             period: '19.05 ~ 19.05',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'X-PLATFORM, JavaScript, Oracle',
             status: '개발 완료'
           },
           {
             page: 'SWC Wall-Pad',
             period: '17.04 ~ 17.05',
-            skill: 'Quasar Framework, Vue.js',
+            skill: 'Spring Framework, jQuery, JavaScript etc..',
             status: '개발 완료'
           },
         ]

@@ -294,13 +294,12 @@
           {
             img: 'img/portfolio/img-buildthing-cloud.png',
             name: 'BuildThing Cloud (자사 서비스)',
-            skill: 'Quasar Framework, Vue.js, JavaScript, Flask Babel, Stylus, Kendo UI',
+            skill: 'Quasar Framework, Vue.js, JavaScript, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)으로 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘으로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 서비스',
             workList: [
               '· 프론트엔드 개발',
               '· Chart.js를 Kendo UI의 차트로 변경 수행 및 추가 된 센서 데이터 시각화 구현',
               '· 리뉴얼 한 대시보드 페이지 외에 담당 페이지를 Kendo UI에서 제공하는 컴포넌트 및 기존에 구현 되어있는 공용 컴포넌트를 통해 요구사항에 맞게 기능 구현',
-              '· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용',
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
