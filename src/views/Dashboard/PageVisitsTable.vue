@@ -16,10 +16,10 @@
               :data="tableData"
               header-row-class-name="thead-light">
       <el-table-column label="프로젝트 명"
-                       min-width="130px"
+                       min-width="120px"
                        prop="page">
         <template v-slot="{row}">
-          <div class="font-weight-600">{{row.page}}</div>
+          <div class="font-weight-600 project-history-name">{{row.page}}</div>
         </template>
       </el-table-column>
       <el-table-column label="프로젝트 기간"
@@ -29,6 +29,9 @@
       <el-table-column label="사용 기술"
                        min-width="130px"
                        prop="skill">
+       <template v-slot="{row}">
+         <div class="project-history-skill">{{row.skill}}</div>
+       </template>
       </el-table-column>
       <el-table-column label="진행 상태"
                        min-width="130px"
@@ -150,5 +153,22 @@
 .project-history {
   max-height: 500px;
   overflow: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .table.project-history .el-table__body {
+    width: 440px !important;
+    table-layout: unset
+  }
+
+  .project-history-name {
+    display: -webkit-box;
+    /* max-width: 110px; */
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
 }
 </style>

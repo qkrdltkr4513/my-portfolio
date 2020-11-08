@@ -25,18 +25,18 @@
       header-row-class-name="thead-light">
       <el-table-column label="이름" min-width="130px" prop="name">
         <template v-slot="{row}">
-          <div class="font-weight-600">{{row.name}}</div>
+          <div class="font-weight-600 project-history-skill" >{{row.name}}</div>
         </template>
       </el-table-column>
 
-      <el-table-column label="수준" min-width="100px" prop="level">
+      <el-table-column label="수준" min-width="80px" prop="level">
       </el-table-column>
 
       <el-table-column label="숙련도" min-width="250px" prop="figure">
         <template v-slot="{row}">
           <div class="d-flex align-items-center">
             <span class="mr-2">{{row.figure}}%</span>
-            <base-progress :type="row.progressType" :value="row.figure" />
+            <base-progress class="progress-bar":type="row.progressType" :value="row.figure" />
             <span
               v-show="row.name === 'Java' || row.name === 'Oracle' || row.name === 'Spring Framework' ? false : true"
               :class="[row.name !== 'Java' && row.name !== 'Oracle' && row.name !== 'Spring Framework' ? 'ic-arrow text-success' : 'text-danger']">
@@ -194,5 +194,27 @@
   background-color: #F6F9FC;
   border: 1px solid #707070;
   border-radius: 7px;
+}
+
+.el-table::before {
+  height: 0px
+}
+
+@media screen and (max-width: 500px) {
+  /* .table.skill-stack .el-table__body {
+    width: auto !important;
+  } */
+  /* .table.skill-stack .el-table__header th{
+    padding-right: 0
+  } */
+  .project-history-skill {
+    display: -webkit-box;
+    max-width: 130px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
 }
 </style>
