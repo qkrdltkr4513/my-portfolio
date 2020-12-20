@@ -4,10 +4,10 @@ export default [
     img: 'img/theme/bootstrap.jpg',
     title: 'BuildThing LoadCell Cloud',
     period: '20.11 ~ 20.11',
-    useSkill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Kendo UI',
+    useSkill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Kendo UI, Plotly.js',
     type: '프론트엔드 개발',
-    status: '진행 중',
-    statusType: 'info',
+    status: '완료',
+    statusType: 'success',
     completion: 100
   },
   {
@@ -16,8 +16,8 @@ export default [
     period: '20.11 ~ 20.11',
     useSkill: 'Quasar Framework, Cordova, Vue.js, JavaScript, Stylus, Kendo UI',
     type: '프론트엔드 개발',
-    status: '진행 중',
-    statusType: 'info',
+    status: '완료',
+    statusType: 'success',
     completion: 100
   },
   {
@@ -26,8 +26,8 @@ export default [
     period: '20.11 ~ 20.11',
     useSkill: 'Quasar Framework, Cordova, Vue.js, JavaScript, Stylus, Kendo UI',
     type: '프론트엔드 개발',
-    status: '진행 중',
-    statusType: 'info',
+    status: '완료',
+    statusType: 'success',
     completion: 100
   },
   {

@@ -55,6 +55,24 @@
       return {
         tableData: [
           {
+            page: 'BuildThing LoadCell Cloud',
+            period: '20.11 ~ 20.11',
+            skill: 'Quasar Framework, Vue.js, Stylus etc..',
+            status: '개발 완료'
+          },
+          {
+            page: 'BuildThing LoadCell Admin 앱',
+            period: '20.11 ~ 20.11',
+            skill: 'Quasar Framework, Cordova, Vue.js etc..',
+            status: '개발 완료'
+          },
+          {
+            page: 'BuildThing LoadCell 앱',
+            period: '20.11 ~ 20.11',
+            skill: 'Quasar Framework, Cordova, Vue.js etc..',
+            status: '개발 완료'
+          },
+          {
             page: 'BuildThing IAQ Cloud',
             period: '20.09 ~ 20.10',
             skill: 'Quasar Framework, Vue.js, Stylus etc..',

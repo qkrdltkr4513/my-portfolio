@@ -26,7 +26,7 @@
             </div>
             <div>
               <span class="heading">경력</span>
-              <span class="description">3년 7개월</span>
+              <span class="description">3년 9개월</span>
             </div>
           </div>
         </b-col>
