@@ -171,7 +171,7 @@
             period: '2021.03 ~ 진행중'
           },
           {
-            img: 'img/portfolio/img-one-click.PNG',
+            img: 'img/portfolio/img-one-click.png',
             name: 'One Click',
             skill: 'Vue.js, javascript, Stylus, ES6',
             intro: '스마트폰 구매 예정 고객과 상담원 간의 통화를 진행하며 고객이 조금 더 쉽고 빠르게 스마트폰 주문을 제공하는 모바일 웹 서비스',
@@ -186,7 +186,7 @@
             period: '2021.02 ~ 2021.03'
           },
           {
-            img: 'img/portfolio/img-smart-phone-shop.PNG',
+            img: 'img/portfolio/img-smart-phone-shop.png',
             name: '스마트폰샵',
             skill: 'React.js, javascript , ES6, Kakao Pay API',
             intro: '카카오톡 앱을 통해 제공하는 스마트폰샵 서비스로 고객이 스마트폰을 대리점이 아닌 카카오택 앱을 통해 조금 더 빠르고 간편하게 스마트폰 주문이 가능한 모바일 웹 서비스',
@@ -201,7 +201,7 @@
             period: '2021.01 ~ 진행중'
           },
           {
-            img: 'img/portfolio/img-pindirectshop.PNG',
+            img: 'img/portfolio/img-pindirectshop.png',
             name: '핀다이렉트샵',
             skill: 'GatsBy, javascript, HTML5 CSS3',
             intro: '신규 스마트폰 출시에 따른 사전 예약 및 다양한 프로모션 그리고 이벤트 혜택등을 고객들에게 공지하고 안내하는 홈페이지',
@@ -213,7 +213,7 @@
             period: '2021.01 ~ 2021.01'
           },
           {
-            img: 'img/portfolio/img-loadcell-map-view.PNG',
+            img: 'img/portfolio/img-loadcell-map-view.png',
             name: 'BuildThing Loadcell Server (자사 서비스)',
             skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
             intro: '신규 개발 제품 Loadcell(하중 압력 측정)의 데이터를 Gateway로 부터 수신 받아 SDK를 통하여 스트레인게이지 변화 값을 통해 하중 값으로 변환하여 현재 하중이 얼마나 되는지 차트 및 mapVIew로 모니터링 서비스 제공해주며 하중 상태에 따라 WebSocket을 통한 푸시 알림 제공',
