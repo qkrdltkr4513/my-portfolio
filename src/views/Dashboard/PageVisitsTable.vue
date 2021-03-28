@@ -55,7 +55,31 @@
       return {
         tableData: [
           {
-            page: 'BuildThing LoadCell Cloud',
+            page: 'M닷컴 (자사 서비스)',
+            period: '21.03 ~ 21.03',
+            skill: 'React.js, Redux, javascript, ES6 etc..',
+            status: '개발 진행중'
+          },
+          {
+            page: 'One Click (자사 서비스)',
+            period: '21.02 ~ 21.03',
+            skill: 'Vue.js, javascript, Stylus, ES6 etc..',
+            status: '개발 완료'
+          },
+          {
+            page: '스마트폰샵 (자사 서비스) 유지보수',
+            period: '21.01 ~ 21.03',
+            skill: 'React.js, javascript, ES6, Kakao Pay API etc..',
+            status: '추가 개발 진행중'
+          },
+          {
+            page: '핀다이렉트샵 (프로모션 홈페이지)',
+            period: '21.01 ~ 21.01',
+            skill: 'GatsBy, javascript, HTML5 CSS3 etc..',
+            status: '개발 완료'
+          },
+          {
+            page: 'BuildThing LoadCell Server',
             period: '20.11 ~ 20.11',
             skill: 'Quasar Framework, Vue.js, Stylus etc..',
             status: '개발 완료'
@@ -106,7 +130,7 @@
             page: 'B.IoT v1.3',
             period: '20.03 ~ 20.10',
             skill: 'Spring boot Framework, jQuery, JavaScript etc..',
-            status: '유지보수 및 개발 / 완료'
+            status: '개발, 유지보수 완료'
           },
           {
             page: '20년 홈페이지',
@@ -118,7 +142,7 @@
             page: 'B.IoT v1.2',
             period: '19.05 ~ 20.02',
             skill: 'Spring boot Framework, jQuery, JavaScript etc..',
-            status: '운영 및 유지보수 완료'
+            status: '개발, 유지보수 완료'
           },
           {
             page: 'A4S',

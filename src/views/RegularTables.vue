@@ -13,7 +13,7 @@
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
-                <span class="text-nowrap mr-4">29세</span>
+                <span class="text-nowrap mr-4">30세</span>
                 <span class="text-success mr-2">성별:</span>
                 <span class="text-nowrap">남자</span>
               </div>
@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="3년 9개월"
+                      sub-title="3년 11개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -155,9 +155,113 @@
         users,
         projectList: [
           {
+            img: 'img/portfolio/img-security.jpg',
+            name: 'M닷컴',
+            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
+            intro: '기존 스마트폰샵과 다르게 카카오톡 앱을 통해 휴대폰을 구매하는 것이 아닌 독립적인 플랫폼으로 회원 관리를 통해 프로모션 및 이벤트 그리고 혜택 등 스마트폰 샵 서비스 제공',
+            workList: [
+              '· 프론트엔드 개발',
+              '· 신규 기능에 필요한 공용 컴포넌트 개발',
+              '· 회원 관리 기능 (회원가입, 마이페이지, 이메일 인증을 통한 비밀번호 찾기 등)',
+              '· NICE 본인인증 (휴대폰/신용카드)과 KCP 결제 모듈을 연동한 결제 기능',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영',
+              '· 기획/디자인 리뷰 참여'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2021.03 ~ 진행중'
+          },
+          {
+            img: 'img/portfolio/img-one-click.PNG',
+            name: 'One Click',
+            skill: 'Vue.js, javascript, Stylus, ES6',
+            intro: '스마트폰 구매 예정 고객과 상담원 간의 통화를 진행하며 고객이 조금 더 쉽고 빠르게 스마트폰 주문을 제공하는 모바일 웹 서비스',
+            workList: [
+              '· 프론트엔드 개발',
+              '· 프로젝트 셋업 및 공용 컴포넌트 개발 ',
+              '· NICE 본인 인증 (휴대폰/신용카드)과 KCP 결제 모듈 연동을 통한 결제',
+              '· 기획/디자인 리뷰 참여',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2021.02 ~ 2021.03'
+          },
+          {
+            img: 'img/portfolio/img-smart-phone-shop.PNG',
+            name: '스마트폰샵',
+            skill: 'React.js, javascript , ES6, Kakao Pay API',
+            intro: '카카오톡 앱을 통해 제공하는 스마트폰샵 서비스로 고객이 스마트폰을 대리점이 아닌 카카오택 앱을 통해 조금 더 빠르고 간편하게 스마트폰 주문이 가능한 모바일 웹 서비스',
+            workList: [
+              '· 프론트엔드 개발',
+              '· 라이브 서비스 이슈 대응',
+              '· 중고폰 구매 탭 및 해당 기능 개발 진행 중',
+              '· 기획/디자인 리뷰 참여',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2021.01 ~ 진행중'
+          },
+          {
+            img: 'img/portfolio/img-pindirectshop.PNG',
+            name: '핀다이렉트샵',
+            skill: 'GatsBy, javascript, HTML5 CSS3',
+            intro: '신규 스마트폰 출시에 따른 사전 예약 및 다양한 프로모션 그리고 이벤트 혜택등을 고객들에게 공지하고 안내하는 홈페이지',
+            workList: [
+              '· 신규 출시되는 스마트폰과 다양한 프로모션과 이벤트에 맞게 내용 수정',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2021.01 ~ 2021.01'
+          },
+          {
+            img: 'img/portfolio/img-loadcell-map-view.PNG',
+            name: 'BuildThing Loadcell Server (자사 서비스)',
+            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
+            intro: '신규 개발 제품 Loadcell(하중 압력 측정)의 데이터를 Gateway로 부터 수신 받아 SDK를 통하여 스트레인게이지 변화 값을 통해 하중 값으로 변환하여 현재 하중이 얼마나 되는지 차트 및 mapVIew로 모니터링 서비스 제공해주며 하중 상태에 따라 WebSocket을 통한 푸시 알림 제공',
+            workList: [
+              '· 프론트엔드 개발',
+              '· Quasar Framework와 Kendo UI에서 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발',
+              '· 맵뷰에 표시되는 Loadcell 아이콘 클릭시 현재 하중에 대한 데이터를 plotly.js를 사용하여 3D 차트 표시',
+              '· 각 종 UI 컴포넌트를 통해 담당 페이지 기능 구현 및 시각화',
+              '· PG사 연동을 통한 결제 기능 구현 및 그룹 관리 기능 구현',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영',
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2020.11 ~ 2020.11'
+          },
+          {
+            img: 'img/portfolio/img-security.jpg',
+            name: 'BuildThing Loadcell Admin 앱 (자사 서비스)',
+            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
+            intro: '신규 개발 제품 Loadcell(하중 압력 측정), Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 탄성체 내에 스트레인게이지를 부착하여 탄성체에 압력이 가해져 스트레인게이지 변화 값을 통해 하중 값으로 변환하여 현재 하중이 얼마나 되는지 모니터링 서비스 제공해주며 하중 상태에 따라 WebSocket을 통한 푸시 알림 제공',
+            workList: [
+              '· 프론트엔드 개발',
+              '· Quasar Framework에서 제공해주는 Cordova를 통해 하이브리드 앱 개발 환경 셋업',
+              '· Quasar Framework와 Kendo UI에서 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발',
+              '· Android 부분을 담당하여 개발',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2020.11 ~ 2020.11'
+          },
+          {
+            img: 'img/portfolio/img-security.jpg',
+            name: 'BuildThing Loadcell 앱 (자사 서비스)',
+            skill: 'Quasar Framework, Cordova, Vue.js, javascript, Stylus, ES6',
+            intro: '신규 개발 제품 Loadcell(하중 압력 측정)을 통해 탄성체 내에 스트레인게이지를 부착하여 탄성체에 압력이 가해져 스트레인게이지 변화 값을 통해 하중 값으로 변환하여 현재 하중이 얼마나 되는지 모니터링 서비스 제공',
+            workList: [
+              '· 프론트엔드 개발',
+              '· Quasar Framework에서 제공해주는 Cordova를 통해 하이브리드 앱 개발 환경 셋업',
+              '· Quasar Framework와 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발',
+              '· Android 부분을 담당하여 개발',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2020.10 ~ 2020.11'
+          },
+          {
             img: 'img/portfolio/img-iaq-cloud-dashboard.PNG',
             name: 'BuildThing IAQ Cloud (자사 서비스)',
-            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
+            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, leaflet.js, Open Api, Kendo UI',
             intro: '신규 개발 제품 IAQ (실내 공기질 측정), Gateway를 통해 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공',
             workList: [
               '· 프론트엔드 개발',
@@ -165,20 +269,6 @@
               '· Gridstack.js를 사용하여 대시보드 카드 생성, 편집(위치 이동), 삭제 기능 구현',
               '· 자사에서 개발한 SDK와 각 종 UI 컴포넌트를 통해 담당 페이지 기능 구현 및 시각화',
               '· PG사 연동을 통한 결제 기능 구현 및 그룹 관리 기능 구현',
-              '· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용',
-              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
-            ],
-            manageSource: 'Git(SourceTree)',
-            period: '2020.08 ~ 2020.09'
-          },
-          {
-            img: 'img/portfolio/img-cloud-beacon.PNG',
-            name: 'BuildThing Cloud (자사 서비스)',
-            skill: 'Quasar Framework, Vue.js, JavaScript, Flask Babel, Stylus, Kendo UI',
-            intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)과 BuildThing Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘과 게이트웨이로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 웹 서비스',
-            workList: [
-              '· 프론트엔드 개발',
-              '· 신규 개발 제품 Gateway에 대한 관련 기능 및 UI 변경 사항 반영',
               '· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용',
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
@@ -203,7 +293,7 @@
           },
           {
             img: 'img/portfolio/img-buildthing-admin.PNG',
-            name: 'BuildThing Admin 앱 (자사 서비스)',
+            name: 'BuildThing Admin v1.1앱 (자사 서비스)',
             skill: 'Quasar Framework, Cordova, Electron, Vue.js, JavaScript, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)과 BuildThing Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘과 게이트웨이부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 앱',
             workList: [
@@ -230,6 +320,20 @@
             ],
             manageSource: 'Git(SourceTree)',
             period: '2020.08 ~ 2020.08'
+          },
+          {
+            img: 'img/portfolio/img-buildthing-cloud-v1.PNG',
+            name: 'BuildThing Cloud v1.1(자사 서비스)',
+            skill: 'Quasar Framework, Vue.js, JavaScript, Stylus, Kendo UI',
+            intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)과 BuildThing Gateway를 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘과 게이트웨이로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 웹 서비스',
+            workList: [
+              '· 프론트엔드 개발',
+              '· 신규 개발 제품 Gateway에 대한 관련 기능 및 UI 변경 사항 반영',
+              '· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용',
+              '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2019.07 ~ 2019.08'
           },
           {
             img: 'img/portfolio/img-smart-building.jpg',
@@ -293,7 +397,7 @@
           },
           {
             img: 'img/portfolio/img-buildthing-cloud.PNG',
-            name: 'BuildThing Cloud (자사 서비스)',
+            name: 'BuildThing Cloud v1.0(자사 서비스)',
             skill: 'Quasar Framework, Vue.js, JavaScript, Stylus, Kendo UI',
             intro: '자사 개발 제품 BuildThing Beacon(실내 공기질 측정)으로 자사에서 개발한 SDK를 사용하여 Bluetooth로 연결을 통해 영역 마다 설치되어있는 비콘으로부터 받아온 데이터를 기반으로 실시간 모니터링 및 웹 소켓을 통한 푸시 알람으로 영역을 관리하며 데이터를 시각화 해주는 서비스',
             workList: [

@@ -91,14 +91,20 @@
           {
             name: 'React.js',
             level: '하',
-            figure: 30,
-            progressType: 'gradient-info',
+            figure: 35,
+            progressType: 'gradient-primary',
+          },
+          {
+            name: 'GatsBy',
+            level: '하',
+            figure: 25,
+            progressType: 'gradient-warning',
           },
           {
             name: 'jQuery',
             level: '중',
             figure: 65,
-            progressType: 'gradient-warning',
+            progressType: 'gradient-info',
           },
           {
             name: 'TypeScript',

@@ -22,11 +22,11 @@
             </div>
             <div>
               <span class="heading">나이</span>
-              <span class="description">29</span>
+              <span class="description">30</span>
             </div>
             <div>
               <span class="heading">경력</span>
-              <span class="description">3년 9개월</span>
+              <span class="description">3년 11개월</span>
             </div>
           </div>
         </b-col>
@@ -36,7 +36,7 @@
           박이삭
         </h5>
         <div class="h5 font-weight-300">
-          충남 아산시 모종로21 105동 1302호
+          경기도 수원시 이의동 1338 광교 센트럴 푸르지오시티 A동 1239호
         </div>
         <div class="h5 mt-4">
           상명대학교

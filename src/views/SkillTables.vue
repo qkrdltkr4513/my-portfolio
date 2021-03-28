@@ -13,7 +13,7 @@
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
-                <span class="text-nowrap mr-4">29세</span>
+                <span class="text-nowrap mr-4">30세</span>
                 <span class="text-success mr-2">성별:</span>
                 <span class="text-nowrap">남자</span>
               </div>
@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="3년 9개월"
+                      sub-title="3년 11개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -151,7 +151,7 @@
           '· Javascript 및 jQuery 에 대한 이해 및 활용',
           '· ES6 문법 사용 경험 보유',
           '· Chrome Inspector 를 통해 성능 개선 경험 보유',
-          '· SPA Framework 에 대한 지식(react.js, vue.js,) 보유 및 개발 경험(vue.js)',
+          '· SPA Framework 에 대한 지식(react.js, vue.js,) 보유 및 개발 경험(vue.js, react.js)',
           '· 라이브러리를 통한 UI 공용 컴포넌트 개발 경험 보유(Kendo UI)',
           '· 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
           '· TypeScript 사용 경험 보유',
@@ -179,6 +179,15 @@
               '· 공용 컴포넌트 생성 및 컴포넌트 활용',
               '· Prerendering을 통한 SEO 경험 보유',
               '· Vuex를 통한 state 관리 및 활용'
+            ]
+          },
+          {
+            skill: 'React.js',
+            level: '하',
+            desc: [
+              '· 공용 컴포넌트 생성 및 컴포넌트 활용',
+              '· React Hook을 통한 개발 경험',
+              '· Redux를 통한 사용 경험'
             ]
           },
           {
