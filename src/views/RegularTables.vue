@@ -157,7 +157,7 @@
           {
             img: 'img/portfolio/img-security.jpg',
             name: 'M닷컴',
-            skill: 'Quasar Framework, Vue.js, jQuery, JavaScript, Stylus, Flask babel, GridStack.js, Open Api, Kendo UI',
+            skill: 'React.js, Redux, javascript, ES6',
             intro: '기존 스마트폰샵과 다르게 카카오톡 앱을 통해 휴대폰을 구매하는 것이 아닌 독립적인 플랫폼으로 회원 관리를 통해 프로모션 및 이벤트 그리고 혜택 등 스마트폰 샵 서비스 제공',
             workList: [
               '· 프론트엔드 개발',
@@ -188,7 +188,7 @@
           {
             img: 'img/portfolio/img-smart-phone-shop.png',
             name: '스마트폰샵',
-            skill: 'React.js, javascript , ES6, Kakao Pay API',
+            skill: 'React.js, javascript, ES6, Kakao Pay API',
             intro: '카카오톡 앱을 통해 제공하는 스마트폰샵 서비스로 고객이 스마트폰을 대리점이 아닌 카카오택 앱을 통해 조금 더 빠르고 간편하게 스마트폰 주문이 가능한 모바일 웹 서비스',
             workList: [
               '· 프론트엔드 개발',
