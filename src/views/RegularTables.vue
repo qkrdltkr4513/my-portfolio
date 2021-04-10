@@ -370,7 +370,7 @@
             img: 'img/portfolio/img-smart-building.jpg',
             name: 'B.IoT v1.2 (스마트 빌딩 솔루션)',
             skill: 'Spring boot Framework, MVVM pattern, jQuery, JavaScript, GridStack.js, i18n.js, HTML5, CSS3, Kendo UI',
-            intro: '신규 개발 제품 IAQ (실내 공기질 측정), Gateway를 통해 공간 및 기기 관리를 통해 IAQ, Gateway 등록 관리 및 실내 공기질 수치 정보 제공',
+            intro: '건물 관리 자동화와 건물 에너지 절감을 위한 솔루션의 개발을 위해 진행 되었고 Web 화면을 통해 특정 건물에 설치된 각 종 기기들을 관리하고 실시간으로 모니터링 및 원격 제어하며, 해당 기기들의 이력과 통계 데이터를 확인할 수 있습니다. 또한 실시간 알람을 통해 건물 내 주요 이슈 현황을 파악',
             workList: [
               '· 프론트엔드 유지보수 및 개발',
               '· 인수인계 받은 담당 페이지에 대한 개선 사항 개발',
