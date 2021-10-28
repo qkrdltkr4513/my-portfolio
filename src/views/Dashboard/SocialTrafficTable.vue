@@ -85,19 +85,19 @@
           {
             name: 'Vue.js',
             level: '중',
-            figure: 65,
+            figure: 70,
             progressType: 'gradient-info',
           },
           {
             name: 'React.js',
-            level: '하',
-            figure: 35,
-            progressType: 'gradient-primary',
+            level: '중',
+            figure: 55,
+            progressType: 'gradient-success',
           },
           {
             name: 'GatsBy',
             level: '하',
-            figure: 25,
+            figure: 30,
             progressType: 'gradient-warning',
           },
           {

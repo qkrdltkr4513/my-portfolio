@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="3년 11개월"
+                      sub-title="4년 5개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -167,7 +167,7 @@
       return {
         bigLineChart: {
           allData: [
-            [1, 3, 4, 5, 6, 8, 10, 15, 19],
+            [1, 3, 4, 5, 6, 8, 10, 15, 19, 19, 19],
           ],
           label: '프로젝트 누적 수',
           activeIndex: 0,
@@ -181,11 +181,11 @@
         },
         redBarChart: {
           chartData: {
-            labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2', '21 2/1'],
+            labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2', '21 2/1', '21 2/2'],
             // datasets: [1, 2, 3, 4, 5, 6]
             datasets: [{
               label: '프로젝트 진행 수',
-              data: [1, 2, 1, 1, 1, 2, 2, 5, 4]
+              data: [1, 2, 1, 1, 1, 2, 2, 5, 4, 0]
             }]
           },
           extraOptions: chartConfigs.blueChartOptions
@@ -201,9 +201,9 @@
               data: this.bigLineChart.allData[index]
             }
           ],
-          labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2', '21 1/2'],
+          labels: ['17 1/2', '17 2/2', '18 1/2', '18 2/2', '19 1/2', '19 2/2', '20 1/2', '20 2/2', '21 1/2', '21 2/2'],
         };
-        this.bigLineChart.chartData = chartData;
+        this.bigLineChart.chartData = chartData
         this.bigLineChart.activeIndex = index;
       }
     },

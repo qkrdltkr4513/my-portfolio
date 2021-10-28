@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="3년 11개월"
+                      sub-title="4년 5개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -90,7 +90,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="margin: 0 auto; max-width: 60rem;"
+        style="margin: 0 auto; max-width: 40rem;"
         class="mb-6">
         <!-- <p class="title">사용기술</p> -->
         <span class="content-title">사용 기술</span>
@@ -155,15 +155,19 @@
         users,
         projectList: [
           {
-            img: 'img/portfolio/img-security.jpg',
-            name: 'M닷컴',
-            skill: 'React.js, Redux, javascript, ES6',
-            intro: '기존 스마트폰샵과 다르게 카카오톡 앱을 통해 휴대폰을 구매하는 것이 아닌 독립적인 플랫폼으로 회원 관리를 통해 프로모션 및 이벤트 그리고 혜택 등 스마트폰 샵 서비스 제공',
+            img: 'img/portfolio/img-pindirectshop-home.png',
+            name: '핀다이렉트샵 (자사몰)',
+            skill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
+            intro: '기존 스마트폰샵과 다르게 카카오톡 앱을 통해 휴대폰을 구매하는 것이 아닌 독립적인 채널 확보와 5G / 중고폰 / 중고폰 / 유심 등의 MNO, MVNO 주문과 주문부터 셀프개통까지의 서비스를 제공하고 자사망을 이용하는 고객을 관리하며 각 종 이벤트 및 제휴프로그램, 프로모션 제공',
             workList: [
-              '· 프론트엔드 개발',
               '· 신규 기능에 필요한 공용 컴포넌트 개발',
-              '· 회원 관리 기능 (회원가입, 마이페이지, 이메일 인증을 통한 비밀번호 찾기 등)',
-              '· NICE 본인인증 (휴대폰/신용카드)과 KCP 결제 모듈을 연동한 결제 기능',
+              '· 중고폰, 중고폰 + 유심, 유심 주문 서비스 개발',
+              '· 마이페이지 개발',
+              '· 주문 배송 관리',
+              '. 자사 망을 이용하는 고객 한에 사용 중인 요금제, 부가서비스 표시 및 Guage 차트를 이용한 잔여 데이터, 음성, 문자 시각화',
+              '. NICE, 카카오페이 본인인증과 KCP를 이용한 결제 연동 (네이버 인증 추가 예정)',
+              '. 라이브 서비스 이슈 대응',
+              '. 마케팅 활용 목적으로 구글 애널리틱스 픽셀 연동',
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영',
               '· 기획/디자인 리뷰 참여'
             ],
@@ -172,28 +176,29 @@
           },
           {
             img: 'img/portfolio/img-one-click.png',
-            name: 'One Click',
+            name: 'One Click(자사 서비스)',
             skill: 'Vue.js, javascript, Stylus, ES6',
-            intro: '스마트폰 구매 예정 고객과 상담원 간의 통화를 진행하며 고객이 조금 더 쉽고 빠르게 스마트폰 주문을 제공하는 모바일 웹 서비스',
+            intro: '고객과 상담원의 통화를 진행으로, 고객이 상담원의 안내에 따라 조금 더 쉽고 빠르게 상품 주문을 제공하는 모바일웹 서비스',
             workList: [
-              '· 프론트엔드 개발',
-              '· 프로젝트 셋업 및 공용 컴포넌트 개발 ',
-              '· NICE 본인 인증 (휴대폰/신용카드)과 KCP 결제 모듈 연동을 통한 결제',
+              '· 프로젝트 셋업 및 공용 컴포넌트 개발',
+              '· 신규가입, 번호이동, 기기변경에 대한 주문 서비스 개발',
+              '· NICE 본인 인증 (휴대폰/신용카드) 연동',
+              '. KCP 결제 모듈 연동',
               '· 기획/디자인 리뷰 참여',
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.02 ~ 2021.03'
+            period: '2021.02 ~ 2021.02'
           },
           {
-            img: 'img/portfolio/img-smart-phone-shop.png',
-            name: '스마트폰샵',
-            skill: 'React.js, javascript, ES6, Kakao Pay API',
-            intro: '카카오톡 앱을 통해 제공하는 스마트폰샵 서비스로 고객이 스마트폰을 대리점이 아닌 카카오택 앱을 통해 조금 더 빠르고 간편하게 스마트폰 주문이 가능한 모바일 웹 서비스',
+            img: 'img/portfolio/img-smartphoneshop-home.png',
+            name: '스마트폰샵(자사 서비스)',
+            skill: 'React.js, javascript, ES6, Styled-compoments',
+            intro: '카카오페이에서 제공해주며 고객이 대리점 방문하지 않고 휴대폰(5G) 주문부터 개통까지 지원하는 서비스',
             workList: [
-              '· 프론트엔드 개발',
+              '· 프론트엔드 개발 및 유지보수',
               '· 라이브 서비스 이슈 대응',
-              '· 중고폰 구매 탭 및 해당 기능 개발 진행 중',
+              '· 핀다이렉트샵(자사 서비스) 업데이트시 동기화 작업',
               '· 기획/디자인 리뷰 참여',
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
@@ -202,8 +207,8 @@
           },
           {
             img: 'img/portfolio/img-pindirectshop.png',
-            name: '핀다이렉트샵',
-            skill: 'GatsBy, javascript, HTML5 CSS3',
+            name: '프로모션 홈페이지',
+            skill: 'GatsBy, javascript, HTML5, CSS3',
             intro: '신규 스마트폰 출시에 따른 사전 예약 및 다양한 프로모션 그리고 이벤트 혜택등을 고객들에게 공지하고 안내하는 홈페이지',
             workList: [
               '· 신규 출시되는 스마트폰과 다양한 프로모션과 이벤트에 맞게 내용 수정',

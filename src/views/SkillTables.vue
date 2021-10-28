@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="3년 11개월"
+                      sub-title="4년 5개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -153,8 +153,8 @@
           '· Chrome Inspector 를 통해 성능 개선 경험 보유',
           '· SPA Framework 에 대한 지식(react.js, vue.js,) 보유 및 개발 경험(vue.js, react.js)',
           '· 라이브러리를 통한 UI 공용 컴포넌트 개발 경험 보유(Kendo UI)',
-          '· 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
-          '· TypeScript 사용 경험 보유',
+          '· Ionic Framework를 통한 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
+          '· TypeScript 사용 경험 보유(기초)',
           '· Spring MVC, MVVM, 사용 경험 보유',
           '· 디자이너와의 적극적인 커뮤니케이션을 통한 협업 경험 보유',
           '· Jira를 통한 Task 관리 및 Confluence를 통한 위키 작성',
@@ -183,11 +183,14 @@
           },
           {
             skill: 'React.js',
-            level: '하',
+            level: '중',
             desc: [
+              '. Atomic 디자인 패턴 사용 경험',
+              '. React.js의 LifeCycle 이해',
               '· 공용 컴포넌트 생성 및 컴포넌트 활용',
-              '· React Hook을 통한 개발 경험',
-              '· Redux를 통한 사용 경험'
+              '· Redux를 통한 state 관리',
+              '· Redux-saga 미들웨어를 통한 비동기 통신 경험',
+              '· recoil, react-query 공부 진행 중',
             ]
           },
           {

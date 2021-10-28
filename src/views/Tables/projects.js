@@ -2,9 +2,9 @@
 export default [
   {
     img: 'img/theme/bootstrap.jpg',
-    title: 'M닷컴',
-    period: '21.03 ~ 진행중',
-    useSkill: 'React.js, Redux, javascript, ES6',
+    title: '핀다이렉트샵',
+    period: '21.02 ~ 진행중',
+    useSkill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
     type: '프론트엔드 개발',
     status: '진행중',
     statusType: 'primary',
@@ -13,7 +13,7 @@ export default [
   {
     img: 'img/theme/bootstrap.jpg',
     title: 'One Click',
-    period: '21.02 ~ 21.03',
+    period: '21.02 ~ 21.02',
     useSkill: 'Vue.js, javascript, Stylus, ES6',
     type: '프론트엔드 개발',
     status: '완료',
@@ -24,7 +24,7 @@ export default [
     img: 'img/theme/bootstrap.jpg',
     title: '스마트폰샵',
     period: '21.01 ~ 진행중',
-    useSkill: 'React.js, javascript, ES6, Kakao Pay API',
+    useSkill: 'React.js, javascript, ES6, Styled-compoments',
     type: '프론트엔드 개발',
     status: '진행중',
     statusType: 'primary',
@@ -32,9 +32,9 @@ export default [
   },
   {
     img: 'img/theme/bootstrap.jpg',
-    title: '핀다이렉트샵',
+    title: '프로모션 홈페이지',
     period: '21.01 ~ 21.01',
-    useSkill: 'GatsBy, javascript, HTML5 CSS3',
+    useSkill: 'GatsBy, javascript, HTML5, CSS3',
     type: '프론트엔드 개발',
     status: '완료',
     statusType: 'success',
