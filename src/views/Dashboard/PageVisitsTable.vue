@@ -55,10 +55,16 @@
       return {
         tableData: [
           {
-            page: '핀다이렉트샵 (자사 서비스)',
-            period: '21.02 ~ 21.10',
+            page: '핀다이렉트샵 2.0 (자사몰)',
+            period: '22.01 ~ 진행중',
+            skill: 'Next.js, React.js, javascript, ES6 etc..',
+            status: '신규 개발'
+          },
+          {
+            page: '핀다이렉트샵 1.0 (자사몰)',
+            period: '21.03 ~ 22.02',
             skill: 'React.js, React-redux, javascript, ES6 etc..',
-            status: '추가 개발 및 유지보수'
+            status: '개발 완료, 유지보수'
           },
           {
             page: 'One Click (자사 서비스)',
@@ -68,7 +74,7 @@
           },
           {
             page: '스마트폰샵 (자사 서비스)',
-            period: '21.01 ~ 21.10',
+            period: '21.01 ~ 22.02',
             skill: 'React.js, javascript, ES6 etc..',
             status: '유지보수'
           },

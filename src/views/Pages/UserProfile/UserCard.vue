@@ -22,11 +22,11 @@
             </div>
             <div>
               <span class="heading">나이</span>
-              <span class="description">30</span>
+              <span class="description">31</span>
             </div>
             <div>
               <span class="heading">경력</span>
-              <span class="description">4년 5개월</span>
+              <span class="description">4년 9개월</span>
             </div>
           </div>
         </b-col>

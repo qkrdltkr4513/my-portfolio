@@ -2,12 +2,22 @@
 export default [
   {
     img: 'img/theme/bootstrap.jpg',
-    title: '핀다이렉트샵',
-    period: '21.02 ~ 진행중',
+    title: '핀다이렉트샵 2.0',
+    period: '22.01 ~ 진행중',
     useSkill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
     type: '프론트엔드 개발',
     status: '진행중',
     statusType: 'primary',
+    completion: 90
+  },
+  {
+    img: 'img/theme/bootstrap.jpg',
+    title: '핀다이렉트샵 1.0',
+    period: '21.03 ~ 22.02',
+    useSkill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
+    type: '프론트엔드 개발 및 유지보수',
+    status: '완료',
+    statusType: 'success',
     completion: 90
   },
   {
@@ -23,11 +33,11 @@ export default [
   {
     img: 'img/theme/bootstrap.jpg',
     title: '스마트폰샵',
-    period: '21.01 ~ 진행중',
+    period: '21.01 ~ 22.02',
     useSkill: 'React.js, javascript, ES6, Styled-compoments',
-    type: '프론트엔드 개발',
-    status: '진행중',
-    statusType: 'primary',
+    type: '프론트엔드 개발 및 유지보수',
+    status: '완료',
+    statusType: 'success',
     completion: 100
   },
   {

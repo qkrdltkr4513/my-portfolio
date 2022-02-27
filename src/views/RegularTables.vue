@@ -13,7 +13,7 @@
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
-                <span class="text-nowrap mr-4">30세</span>
+                <span class="text-nowrap mr-4">31세</span>
                 <span class="text-success mr-2">성별:</span>
                 <span class="text-nowrap">남자</span>
               </div>
@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 5개월"
+                      sub-title="4년 9개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -155,8 +155,26 @@
         users,
         projectList: [
           {
+            img: 'img/portfolio/img-security.jpg',
+            name: '핀다이렉트샵 2.0(자사몰)',
+            skill: 'Next.js, React.js, Typescript, ES6, AWS S3, Emotion, Framer-motion',
+            intro: '현재 운영중인 핀다이렉트샵 1.0을 리뉴얼하고 보다 더 편리한 MVNO 주문 서비스 및 이벤트, 프로모션 제공',
+            workList: [
+              '· 개편 된 서비스 및 리뉴얼 된 디자인에 필요한 공용 컴포넌트 개발',
+              '· 유심 주문 서비스 개발',
+              '· NICE 본인인증 연동',
+              '· KCP를 이용한 결제 연동',
+              '. 1.0에서 판매 중이던 5G(MNO) 서비스를 걷어내고 유심, 중고폰 위주의 MVNO 서비스 제공',
+              '. 디자인 팀에서 요구하는 애니메이션을 Framer 및 CSS로 대응',
+              '. 디자인 팀과의 협업으로 Figma를 통해 디자인 가이드 내용 반영',
+              '· 기획/디자인 리뷰 참여'
+            ],
+            manageSource: 'Git(SourceTree)',
+            period: '2022.01 ~ 진행중'
+          },
+          {
             img: 'img/portfolio/img-pindirectshop-home.png',
-            name: '핀다이렉트샵 (자사몰)',
+            name: '핀다이렉트샵 1.0(자사몰)',
             skill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
             intro: '기존 스마트폰샵과 다르게 카카오톡 앱을 통해 휴대폰을 구매하는 것이 아닌 독립적인 채널 확보와 5G / 중고폰 / 중고폰 / 유심 등의 MNO, MVNO 주문과 주문부터 셀프개통까지의 서비스를 제공하고 자사망을 이용하는 고객을 관리하며 각 종 이벤트 및 제휴프로그램, 프로모션 제공',
             workList: [
@@ -172,7 +190,7 @@
               '· 기획/디자인 리뷰 참여'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.03 ~ 진행중'
+            period: '2021.03 ~ 2022.02'
           },
           {
             img: 'img/portfolio/img-one-click.png',
@@ -203,7 +221,7 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.01 ~ 진행중'
+            period: '2021.01 ~ 2022.02'
           },
           {
             img: 'img/portfolio/img-pindirectshop.png',

@@ -13,7 +13,7 @@
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
-                <span class="text-nowrap mr-4">30세</span>
+                <span class="text-nowrap mr-4">31세</span>
                 <span class="text-success mr-2">성별:</span>
                 <span class="text-nowrap">남자</span>
               </div>
@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 5개월"
+                      sub-title="4년 9개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 

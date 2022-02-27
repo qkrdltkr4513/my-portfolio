@@ -95,6 +95,12 @@
             progressType: 'gradient-success',
           },
           {
+            name: 'Next.js',
+            level: '하',
+            figure: 20,
+            progressType: 'gradient-warning',
+          },
+          {
             name: 'GatsBy',
             level: '하',
             figure: 30,
@@ -108,9 +114,9 @@
           },
           {
             name: 'TypeScript',
-            level: '하',
-            figure: 30,
-            progressType: 'gradient-warning',
+            level: '중',
+            figure: 40,
+            progressType: 'gradient-success',
           },
           {
             name: 'JavaScript',
@@ -134,6 +140,18 @@
             name: 'Stylus',
             level: '중',
             figure: 60,
+            progressType: 'gradient-success',
+          },
+          {
+            name: 'Styled-component',
+            level: '중',
+            figure: 40,
+            progressType: 'gradient-success',
+          },
+          {
+            name: 'Emotion',
+            level: '중',
+            figure: 40,
             progressType: 'gradient-success',
           },
           {
