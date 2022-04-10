@@ -109,6 +109,12 @@
 
         <span class="content-title">프로젝트 기간</span>
         <b-card-text class="period">{{item.period}}</b-card-text>
+
+        <div v-if="!!item.url">
+          <span class="content-title">
+            <a :href="item.url" target='_blank'>서비스 URL 및 소개</a>
+          </span>
+        </div>
         <!-- <b-card-body>
           This is some text within a card body.
         </b-card-body> -->
@@ -170,7 +176,8 @@
               '· 기획/디자인 리뷰 참여'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2022.01 ~ 진행중'
+            period: '2022.01 ~ 진행중',
+            url: null
           },
           {
             img: 'img/portfolio/img-pindirectshop-home.png',
@@ -190,7 +197,8 @@
               '· 기획/디자인 리뷰 참여'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.03 ~ 2022.02'
+            period: '2021.03 ~ 2022.02',
+            url: 'https://pindirectshop.com'
           },
           {
             img: 'img/portfolio/img-one-click.png',
@@ -206,7 +214,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.02 ~ 2021.02'
+            period: '2021.02 ~ 2021.02',
+            url: null
           },
           {
             img: 'img/portfolio/img-smartphoneshop-home.png',
@@ -221,7 +230,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.01 ~ 2022.02'
+            period: '2021.01 ~ 2022.02',
+            url: null
           },
           {
             img: 'img/portfolio/img-pindirectshop.png',
@@ -233,7 +243,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2021.01 ~ 2021.01'
+            period: '2021.01 ~ 2021.01',
+            url: null
           },
           {
             img: 'img/portfolio/img-loadcell-map-view.png',
@@ -249,7 +260,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영',
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.11 ~ 2020.11'
+            period: '2020.11 ~ 2020.11',
+            url: null
           },
           {
             img: 'img/portfolio/img-security.jpg',
@@ -264,7 +276,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.11 ~ 2020.11'
+            period: '2020.11 ~ 2020.11',
+            url: null
           },
           {
             img: 'img/portfolio/img-security.jpg',
@@ -279,7 +292,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.10 ~ 2020.11'
+            period: '2020.10 ~ 2020.11',
+            url: null
           },
           {
             img: 'img/portfolio/img-iaq-cloud-dashboard.PNG',
@@ -296,7 +310,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.08 ~ 2020.09'
+            period: '2020.08 ~ 2020.09',
+            url: 'https://iaq-cloud.com'
           },
           {
             img: 'img/portfolio/img-iaq-admin.PNG',
@@ -312,7 +327,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.08 ~ 2020.08'
+            period: '2020.08 ~ 2020.08',
+            url : 'https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality'
           },
           {
             img: 'img/portfolio/img-buildthing-admin.PNG',
@@ -326,7 +342,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.08 ~ 2020.08'
+            period: '2020.08 ~ 2020.08',
+            url : 'https://play.google.com/store/apps/details?id=kr.buildit.buildthing.ble'
           },
           {
             img: 'img/portfolio/img-iaq-scan.PNG',
@@ -342,7 +359,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.08 ~ 2020.08'
+            period: '2020.08 ~ 2020.08',
+            url: 'https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality.scan'
           },
           {
             img: 'img/portfolio/img-buildthing-cloud-v1.PNG',
@@ -356,7 +374,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2019.07 ~ 2019.08'
+            period: '2019.07 ~ 2019.08',
+            url: 'https://cloud.buildit.kr'
           },
           {
             img: 'img/portfolio/img-smart-building.jpg',
@@ -371,7 +390,8 @@
               '· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영',
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.03 ~ 2020.10'
+            period: '2020.03 ~ 2020.10',
+            url: 'https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/'
           },
           {
             img: 'img/portfolio/img-buildit-homepage.PNG',
@@ -387,7 +407,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2020.02 ~ 2020.03'
+            period: '2020.02 ~ 2020.03',
+            url: 'https://buildit.kr'
           },
           {
             img: 'img/portfolio/img-smart-building.jpg',
@@ -401,7 +422,8 @@
               '· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2019.05 ~ 2020.02'
+            period: '2019.05 ~ 2020.02',
+            url: 'https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/'
           },
           {
             img: 'img/portfolio/img-security.jpg',
@@ -416,7 +438,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2019.05 ~ 2019.10'
+            period: '2019.05 ~ 2019.10',
+            url: null
           },
           {
             img: 'img/portfolio/img-buildthing-cloud.PNG',
@@ -430,7 +453,8 @@
               '· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2019.05 ~ 2019.05'
+            period: '2019.05 ~ 2019.05',
+            url: 'https://cloud.buildit.kr'
           },
           {
             img: 'img/portfolio/img-factory.jpg',
@@ -445,7 +469,8 @@
               '· 코드 수정 및 신규 기능으로 인해 추가 된 코드를 종합하여 운영 서버에서 테스트 이후 정기 이행일에 맞추어 가동계 서버로 자원 이행'
             ],
             manageSource: 'Serena Demension',
-            period: '2018.04 ~ 2018.12'
+            period: '2018.04 ~ 2018.12',
+            url: null
           },
           {
             img: 'img/portfolio/img-swc-web.PNG',
@@ -459,7 +484,8 @@
               '· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영'
             ],
             manageSource: 'SVN',
-            period: '2017.11 ~ 2018.03'
+            period: '2017.11 ~ 2018.03',
+            url: null
           },
           {
             img: 'img/portfolio/img-swc-web.PNG',
@@ -473,7 +499,8 @@
               '· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영'
             ],
             manageSource: 'SVN',
-            period: '2018.02 ~ 2018.03'
+            period: '2018.02 ~ 2018.03',
+            url: null
           },
           {
             img: 'img/portfolio/img-erp.jpg',
@@ -487,7 +514,8 @@
               '· 필요한 데이터에 맞게 쿼리문 작성과 플랫폼에서 제공해주는 컴포넌트를 통해 요구사항에 맞게 기능 구현'
             ],
             manageSource: 'SVN',
-            period: '2017.06 ~ 2017.10'
+            period: '2017.06 ~ 2017.10',
+            url: null
           },
           {
             img: 'img/portfolio/img-swc-web.PNG',
@@ -501,7 +529,8 @@
               '· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영'
             ],
             manageSource: 'SVN',
-            period: '2017.04 ~ 2017.05'
+            period: '2017.04 ~ 2017.05',
+            url: null
           }
         ]
       };
