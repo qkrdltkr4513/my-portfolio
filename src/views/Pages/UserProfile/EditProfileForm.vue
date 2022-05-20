@@ -9,7 +9,7 @@
       <b-col>
         <div class="profile-intro justify-content-center">
           <div class="mb-4">
-            <i class="ic-icons ni ni-laptop"></i><p class="title heading">경력사항 (4년 9개월)</p>
+            <i class="ic-icons ni ni-laptop"></i><p class="title heading">경력사항 (4년 11개월)</p>
             <span class="description">(주)스테이지파이브 (2021.01 ~ 재직 중)</span>
             <span class="description">(주)빌드잇 (2019.04 ~ 2020.12)</span>
             <span class="description">(주)아토스 (2017.01 ~ 2018.12)</span>

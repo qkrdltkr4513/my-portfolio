@@ -4,7 +4,7 @@ export default [
     img: 'img/theme/bootstrap.jpg',
     title: '핀다이렉트샵 2.0',
     period: '22.01 ~ 진행중',
-    useSkill: 'React.js, React-redux, javascript, ES6, React-apexchart, AWS S3, Styled-components',
+    useSkill: 'Next.js, React.js, Typescript, React-query, Recoil, ES6, AWS S3, Emotion, Framer-motion',
     type: '프론트엔드 개발',
     status: '진행중',
     statusType: 'primary',

@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 9개월"
+                      sub-title="4년 11개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -157,7 +157,7 @@
           {
             img: 'img/portfolio/img-security.jpg',
             name: '핀다이렉트샵 2.0(자사몰)',
-            skill: 'Next.js, React.js, Typescript, ES6, AWS S3, Emotion, Framer-motion',
+            skill: 'Next.js, React.js, Typescript, React-query, Recoil, ES6, AWS S3, Emotion, Framer-motion',
             intro: '현재 운영중인 핀다이렉트샵 1.0을 리뉴얼하고 보다 더 편리한 MVNO 주문 서비스 및 이벤트, 프로모션 제공',
             workList: [
               '· 개편 된 서비스 및 리뉴얼 된 디자인에 필요한 공용 컴포넌트 개발',

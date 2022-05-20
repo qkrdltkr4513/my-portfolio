@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 9개월"
+                      sub-title="4년 11개월"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -146,17 +146,18 @@
         users,
         coreAbility: [
           '· HTML5 및 CSS3에 대한 이해 및 활용',
-          '· 웹 표준 및 웹 접근성을 준수한 시멘틱 마크업 생성',
+          '· 웹 표준을 준수한 시멘틱 마크업 생성',
           '· CSS 전처리기(stylus) 사용 경험 보유',
+          '· CSS In JS(Emotion, Styled-component) 사용 경험 보유',
           '· Javascript 및 jQuery 에 대한 이해 및 활용',
           '· ES6 문법 사용 경험 보유',
           '· Chrome Inspector 를 통해 성능 개선 경험 보유',
-          '· SPA Framework 에 대한 지식(react.js, vue.js,) 보유 및 개발 경험(vue.js, react.js)',
-          '· 라이브러리를 통한 UI 공용 컴포넌트 개발 경험 보유(Kendo UI)',
-          '· Ionic Framework를 통한 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
+          '· SPA Framework 에 대한 지식 보유 및 개발 경험(vue.js, react.js)',
+          '· UI 라이브러리를 통한 공용 및 차트 컴포넌트 개발 경험 보유(Kendo UI)',
+          '· Quasar Framework를 통한 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
           '· TypeScript 사용 경험 보유(기초)',
-          '· Spring MVC, MVVM, 사용 경험 보유',
-          '· 디자이너와의 적극적인 커뮤니케이션을 통한 협업 경험 보유',
+          '· MVC, MVVM 패턴 사용 경험 보유',
+          '· 디자이너와의 적극적인 커뮤니케이션을 통한 협업 경험 보유(Figma, Zeplin)',
           '· Jira를 통한 Task 관리 및 Confluence를 통한 위키 작성',
         ],
         skillList: [
