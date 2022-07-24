@@ -3,11 +3,11 @@ export default [
   {
     img: 'img/theme/bootstrap.jpg',
     title: '핀다이렉트샵 2.0',
-    period: '22.01 ~ 진행중',
+    period: '22.01 ~ 22.06',
     useSkill: 'Next.js, React.js, Typescript, React-query, Recoil, ES6, AWS S3, Emotion, Framer-motion',
-    type: '프론트엔드 개발',
-    status: '진행중',
-    statusType: 'primary',
+    type: '프론트엔드 개발 및 유지보수',
+    status: '완료',
+    statusType: 'success',
     completion: 90
   },
   {

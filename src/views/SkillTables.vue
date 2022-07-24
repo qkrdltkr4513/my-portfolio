@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 11개월"
+                      sub-title="5년"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -255,14 +255,6 @@
             desc: [
               '· Kendo UI의 컴포넌트 사용 및 활용 가능',
               '· Kendo UI에서 지원해주는 UI 컴포넌트를 통하여 공용 컴포넌트 개발 및 활용 경험 보유'
-            ]
-          },
-          {
-            skill: 'Oracle',
-            level: '하',
-            desc: [
-              '· 오라클을 통해 필요한 Query문 작성 및 사용 경험 보유',
-              '· Oracle 10g, Tibero, Orange 툴 사용 경험 보유'
             ]
           }
         ]

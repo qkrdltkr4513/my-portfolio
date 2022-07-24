@@ -56,9 +56,9 @@
         tableData: [
           {
             page: '핀다이렉트샵 2.0 (자사몰)',
-            period: '22.01 ~ 진행중',
+            period: '22.01 ~ 22.06',
             skill: 'Next.js, React.js, javascript, ES6 etc..',
-            status: '신규 개발'
+            status: '개발 완료, 유지보수'
           },
           {
             page: '핀다이렉트샵 1.0 (자사몰)',

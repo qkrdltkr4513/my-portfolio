@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 11개월"
+                      sub-title="5년"
                       icon="ni ni-laptop"
                       class="mb-4">
 
@@ -161,23 +161,24 @@
         users,
         projectList: [
           {
-            img: 'img/portfolio/img-security.jpg',
+            img: 'img/portfolio/img-pindirectshop2.0.png',
             name: '핀다이렉트샵 2.0(자사몰)',
             skill: 'Next.js, React.js, Typescript, React-query, Recoil, ES6, AWS S3, Emotion, Framer-motion',
             intro: '현재 운영중인 핀다이렉트샵 1.0을 리뉴얼하고 보다 더 편리한 MVNO 주문 서비스 및 이벤트, 프로모션 제공',
             workList: [
               '· 개편 된 서비스 및 리뉴얼 된 디자인에 필요한 공용 컴포넌트 개발',
               '· 유심 주문 서비스 개발',
-              '· NICE 본인인증 연동',
+              '· 주문 배송 관리 및 마이페이지 개발',
+              '· 실시간 데이터 사용량, 부가서비스 가입/해지, 요금제 변경 개발',
               '· KCP를 이용한 결제 연동',
-              '. 1.0에서 판매 중이던 5G(MNO) 서비스를 걷어내고 유심, 중고폰 위주의 MVNO 서비스 제공',
+              '. 1.0에서 판매 중이던 5G(MNO), 중고폰 서비스를 걷어내고 유심 위주의 MVNO 서비스 제공',
               '. 디자인 팀에서 요구하는 애니메이션을 Framer 및 CSS로 대응',
               '. 디자인 팀과의 협업으로 Figma를 통해 디자인 가이드 내용 반영',
               '· 기획/디자인 리뷰 참여'
             ],
             manageSource: 'Git(SourceTree)',
-            period: '2022.01 ~ 진행중',
-            url: null
+            period: '2022.01 ~ 2022.06',
+            url: 'https://pindirectshop.com'
           },
           {
             img: 'img/portfolio/img-pindirectshop-home.png',
@@ -198,7 +199,7 @@
             ],
             manageSource: 'Git(SourceTree)',
             period: '2021.03 ~ 2022.02',
-            url: 'https://pindirectshop.com'
+            url: null
           },
           {
             img: 'img/portfolio/img-one-click.png',

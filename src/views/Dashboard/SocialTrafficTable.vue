@@ -36,7 +36,7 @@
         <template v-slot="{row}">
           <div class="d-flex align-items-center">
             <span class="mr-2">{{row.figure}}%</span>
-            <base-progress class="progress-bar":type="row.progressType" :value="row.figure" />
+            <base-progress class="progress-bar" :type="row.progressType" :value="row.figure" />
             <span
               v-show="row.name === 'Java' || row.name === 'Oracle' || row.name === 'Spring Framework' ? false : true"
               :class="[row.name !== 'Java' && row.name !== 'Oracle' && row.name !== 'Spring Framework' ? 'ic-arrow text-success' : 'text-danger']">
@@ -75,12 +75,6 @@
             level: '중',
             figure: 60,
             progressType: 'gradient-success',
-          },
-          {
-            name: 'Spring Framework',
-            level: '중',
-            figure: 40,
-            progressType: 'gradient-primary',
           },
           {
             name: 'Vue.js',
@@ -159,18 +153,6 @@
             level: '중',
             figure: 65,
             progressType: 'gradient-info',
-          },
-          {
-            name: 'Java',
-            level: '하',
-            figure: 30,
-            progressType: 'gradient-warning',
-          },
-          {
-            name: 'Oracle',
-            level: '하',
-            figure: 30,
-            progressType: 'gradient-warning',
           }
         ]
       }

@@ -48,7 +48,7 @@
         <b-col xl="3" md="6">
           <stats-card title="경력"
                       type="gradient-green"
-                      sub-title="4년 11개월"
+                      sub-title="5년"
                       icon="ni ni-laptop"
                       class="mb-4">
 
