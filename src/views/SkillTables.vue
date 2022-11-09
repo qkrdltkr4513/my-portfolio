@@ -4,12 +4,13 @@
       <!-- Card stats -->
       <b-row>
         <b-col xl="3" md="6">
-          <stats-card title="개인정보"
-                      type="gradient-red"
-                      sub-title="박이삭"
-                      icon="ni ni-circle-08"
-                      class="mb-4">
-
+          <stats-card
+            title="개인정보"
+            type="gradient-red"
+            sub-title="박이삭"
+            icon="ni ni-circle-08"
+            class="mb-4"
+          >
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
@@ -25,12 +26,13 @@
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="병역사항"
-                      type="gradient-orange"
-                      sub-title="2012.01 ~ 2013.10"
-                      icon="ni ni-user-run"
-                      class="mb-4 military-period">
-
+          <stats-card
+            title="병역사항"
+            type="gradient-orange"
+            sub-title="2012.01 ~ 2013.10"
+            icon="ni ni-user-run"
+            class="mb-4 military-period"
+          >
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">군별:</span>
@@ -46,26 +48,27 @@
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="경력"
-                      type="gradient-green"
-                      sub-title="5년"
-                      icon="ni ni-laptop"
-                      class="mb-4">
-
+          <stats-card
+            title="경력"
+            type="gradient-green"
+            sub-title="5년 6개월"
+            icon="ni ni-laptop"
+            class="mb-4"
+          >
             <template slot="footer">
               <span class="text-success block mr-2">재직 여부</span>
               <span class="text-nowrap block">현재 재직중</span>
             </template>
           </stats-card>
-
         </b-col>
         <b-col xl="3" md="6">
-          <stats-card title="연락처"
-                      type="gradient-info"
-                      sub-title="010-5629-0727"
-                      icon="ni ni-mobile-button"
-                      class="mb-4 phone-number">
-
+          <stats-card
+            title="연락처"
+            type="gradient-info"
+            sub-title="010-5629-0727"
+            icon="ni ni-mobile-button"
+            class="mb-4 phone-number"
+          >
             <template slot="footer">
               <span class="text-success block mr-2">E-mail</span>
               <span class="text-nowrap block">qkrdltkr4513@gmail.com</span>
@@ -75,14 +78,20 @@
       </b-row>
     </base-header>
     <div class="main-content container-fluid">
-      <stats-card title="핵심 역량"
-              type="gradient-primary"
-              icon="ni ni-check-bold"
-              class="mt--6 mb-4">
-
+      <stats-card
+        title="핵심 역량"
+        type="gradient-primary"
+        icon="ni ni-check-bold"
+        class="mt--6 mb-4"
+      >
         <template slot="footer">
           <!-- <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span> -->
-          <span style="display: block;" class="" v-for="(ability, index) in coreAbility">{{ ability }}</span>
+          <span
+            style="display: block"
+            class=""
+            v-for="(ability, index) in coreAbility"
+            >{{ ability }}</span
+          >
         </template>
       </stats-card>
     </div>
@@ -96,21 +105,25 @@
       <social-traffic-table></social-traffic-table>
     </b-container>
     <div class="container-fluid detail-card-block">
-      <b-card v-for="(item, index) in skillList"
+      <b-card
+        v-for="(item, index) in skillList"
         :title="item.name"
         tag="article"
-        style="margin: 0 auto; max-width: 28rem;"
-        class="mb-4">
+        style="margin: 0 auto; max-width: 28rem"
+        class="mb-4"
+      >
         <!-- <p class="title">사용기술</p> -->
         <span class="content-title">사용 기술명</span>
-        <b-card-text class="skill-name">{{item.skill}}</b-card-text>
+        <b-card-text class="skill-name">{{ item.skill }}</b-card-text>
 
         <span class="content-title">수준</span>
-        <b-card-text class="skill-level">{{item.level}}</b-card-text>
+        <b-card-text class="skill-level">{{ item.level }}</b-card-text>
 
         <span class="content-title">상세 내용</span>
         <b-card-text>
-          <p class="skill-desc" v-for="(desc, descIndex) in item.desc">{{desc}}</p>
+          <p class="skill-desc" v-for="(desc, descIndex) in item.desc">
+            {{ desc }}
+          </p>
         </b-card-text>
         <!-- <b-card-body>
           This is some text within a card body.
@@ -122,159 +135,165 @@
   </div>
 </template>
 <script>
-  import { Dropdown, DropdownItem, DropdownMenu, Table, TableColumn } from 'element-ui';
-  import projects from './Tables/projects'
-  import users from './Tables/users'
-  import LightTable from "./Tables/RegularTables/LightTable";
-  import DarkTable from "./Tables/RegularTables/DarkTable";
-  import SocialTrafficTable from './Dashboard/SocialTrafficTable';
+import {
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Table,
+  TableColumn,
+} from "element-ui";
+import projects from "./Tables/projects";
+import users from "./Tables/users";
+import LightTable from "./Tables/RegularTables/LightTable";
+import DarkTable from "./Tables/RegularTables/DarkTable";
+import SocialTrafficTable from "./Dashboard/SocialTrafficTable";
 
-  export default {
-    components: {
-      LightTable,
-      DarkTable,
-      SocialTrafficTable,
-      [Dropdown.name]: Dropdown,
-      [DropdownItem.name]: DropdownItem,
-      [DropdownMenu.name]: DropdownMenu,
-      [Table.name]: Table,
-      [TableColumn.name]: TableColumn
-    },
-    data() {
-      return {
-        projects,
-        users,
-        coreAbility: [
-          '· HTML5 및 CSS3에 대한 이해 및 활용',
-          '· 웹 표준을 준수한 시멘틱 마크업 생성',
-          '· CSS 전처리기(stylus) 사용 경험 보유',
-          '· CSS In JS(Emotion, Styled-component) 사용 경험 보유',
-          '· Javascript 및 jQuery 에 대한 이해 및 활용',
-          '· ES6 문법 사용 경험 보유',
-          '· Chrome Inspector 를 통해 성능 개선 경험 보유',
-          '· SPA Framework 에 대한 지식 보유 및 개발 경험(vue.js, react.js)',
-          '· UI 라이브러리를 통한 공용 및 차트 컴포넌트 개발 경험 보유(Kendo UI)',
-          '· Quasar Framework를 통한 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유',
-          '· TypeScript 사용 경험 보유(기초)',
-          '· MVC, MVVM 패턴 사용 경험 보유',
-          '· 디자이너와의 적극적인 커뮤니케이션을 통한 협업 경험 보유(Figma, Zeplin)',
-          '· Jira를 통한 Task 관리 및 Confluence를 통한 위키 작성',
-        ],
-        skillList: [
-          {
-            skill: 'Quasar Framework',
-            level: '중',
-            desc: [
-              '· Quasar Framework를 기반으로 개발 환경 셋업(웹, cordova, electron)',
-              '· Quasar Framework의 UI 컴포넌트를 커스텀을 통해 공용 컴포넌트 생성 및 활용 가능',
-              '· Quasar Framework에서 지원해주는 cordova 및 electron을 통하여 하이브리드 앱 개발 경험 및 구글 스토어, 윈도우 스토어 배포 경험 보유'
-            ]
-          },
-          {
-            skill: 'Vue.js',
-            level: '중',
-            desc: [
-              '· Vue cli를 통한 개발 환경 셋업',
-              '· 가상 DOM에 대한 이해',
-              '· Vue.js의 LifeCycle과 디렉티브에 대한 이해 및 활용',
-              '· 공용 컴포넌트 생성 및 컴포넌트 활용',
-              '· Prerendering을 통한 SEO 경험 보유',
-              '· Vuex를 통한 state 관리 및 활용'
-            ]
-          },
-          {
-            skill: 'React.js',
-            level: '중',
-            desc: [
-              '. Atomic 디자인 패턴 사용 경험',
-              '. React.js의 LifeCycle 이해',
-              '· 공용 컴포넌트 생성 및 컴포넌트 활용',
-              '· Redux를 통한 state 관리',
-              '· Redux-saga 미들웨어를 통한 비동기 통신 경험',
-              '· recoil, react-query 공부 진행 중',
-            ]
-          },
-          {
-            skill: 'jQuery',
-            level: '중',
-            desc: [
-              '· jQuery에 대한 이해 및 활용',
-              '· jQuery에서 지원해주는 API 활용과 선택자를 통한 요소 접근을 통하여 CSS 등 스타일링 및 데이터 가공 경험 다수 보유',
-              '· MVC 및 MVVM 패턴 사용 경험 보유'
-            ]
-          },
-          {
-            skill: 'TypeScript',
-            level: '하',
-            desc: [
-              '· Vue.js와 TypeScript를 함께 사용한 경험 보유',
-              '· TypeScript 문법 이해 및 사용 가능'
-            ]
-          },
-          {
-            skill: 'JavaScript',
-            level: '중',
-            desc: [
-              '· JavaScript에 대한 이해 및 활용 가능',
-              '· JavaScript에서의 this에 대한 이해 및 활용 가능',
-              '· Chrome Inspector를 통한 성능 개선 경험 보유',
-              '· Open 라이브러리, Open Api 통한 개발 경험 보유',
-            ]
-          },
-          {
-            skill: 'HTML5',
-            level: '중',
-            desc: [
-              '· 웹 표준 및 웹 접근성을 준수한 시멘틱 마크업 생성 가능',
-              '· 브라우저 렌더링 과정에 대한 이해'
-            ]
-          },
-          {
-            skill: 'CSS3',
-            level: '중',
-            desc: [
-              '· CSS3에 대한 이해 및 활용 가능',
-              '· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능',
-              '· 크로스 브라우저 이슈 대응 경험 보유',
-              '· 반응형 스타일 경험 보유'
-            ]
-          },
-          {
-            skill: 'Stylus',
-            level: '중',
-            desc: [
-              '· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능',
-              '· 웹/앱(WebView) 스타일 경험 보유',
-              '· 크로스 브라우징 이슈 대응 경험 보유',
-              '· 반응형 스타일 경험 보유',
-            ]
-          },
-          {
-            skill: 'Kendo UI',
-            level: '중',
-            desc: [
-              '· Kendo UI의 컴포넌트 사용 및 활용 가능',
-              '· Kendo UI에서 지원해주는 UI 컴포넌트를 통하여 공용 컴포넌트 개발 및 활용 경험 보유'
-            ]
-          }
-        ]
-      };
-    }
-  };
+export default {
+  components: {
+    LightTable,
+    DarkTable,
+    SocialTrafficTable,
+    [Dropdown.name]: Dropdown,
+    [DropdownItem.name]: DropdownItem,
+    [DropdownMenu.name]: DropdownMenu,
+    [Table.name]: Table,
+    [TableColumn.name]: TableColumn,
+  },
+  data() {
+    return {
+      projects,
+      users,
+      coreAbility: [
+        "· HTML5 및 CSS3에 대한 이해 및 활용",
+        "· 웹 표준을 준수한 시멘틱 마크업 생성",
+        "· CSS 전처리기(stylus) 사용 경험 보유",
+        "· CSS In JS(Emotion, Styled-component) 사용 경험 보유",
+        "· Javascript 및 jQuery 에 대한 이해 및 활용",
+        "· ES6 문법 사용 경험 보유",
+        "· Chrome Inspector 를 통해 성능 개선 경험 보유",
+        "· SPA Framework 에 대한 지식 보유 및 개발 경험(vue.js, react.js)",
+        "· UI 라이브러리를 통한 공용 및 차트 컴포넌트 개발 경험 보유(Kendo UI)",
+        "· Quasar Framework를 통한 하이브리드 앱 개발 경험 보유(Cordova, Electron 사용) 및 스토어 배포 경험 보유",
+        "· TypeScript 사용 경험 보유(기초)",
+        "· MVC, MVVM 패턴 사용 경험 보유",
+        "· 디자이너와의 적극적인 커뮤니케이션을 통한 협업 경험 보유(Figma, Zeplin)",
+        "· Jira를 통한 Task 관리 및 Confluence를 통한 위키 작성",
+      ],
+      skillList: [
+        {
+          skill: "Quasar Framework",
+          level: "중",
+          desc: [
+            "· Quasar Framework를 기반으로 개발 환경 셋업(웹, cordova, electron)",
+            "· Quasar Framework의 UI 컴포넌트를 커스텀을 통해 공용 컴포넌트 생성 및 활용 가능",
+            "· Quasar Framework에서 지원해주는 cordova 및 electron을 통하여 하이브리드 앱 개발 경험 및 구글 스토어, 윈도우 스토어 배포 경험 보유",
+          ],
+        },
+        {
+          skill: "Vue.js",
+          level: "중",
+          desc: [
+            "· Vue cli를 통한 개발 환경 셋업",
+            "· 가상 DOM에 대한 이해",
+            "· Vue.js의 LifeCycle과 디렉티브에 대한 이해 및 활용",
+            "· 공용 컴포넌트 생성 및 컴포넌트 활용",
+            "· Prerendering을 통한 SEO 경험 보유",
+            "· Vuex를 통한 state 관리 및 활용",
+          ],
+        },
+        {
+          skill: "React.js",
+          level: "중",
+          desc: [
+            ". Atomic 디자인 패턴 사용 경험",
+            ". React.js의 LifeCycle 이해",
+            "· 공용 컴포넌트 생성 및 컴포넌트 활용",
+            "· Redux를 통한 state 관리",
+            "· Redux-saga 미들웨어를 통한 비동기 통신 경험",
+            "· recoil, react-query 공부 진행 중",
+          ],
+        },
+        {
+          skill: "jQuery",
+          level: "중",
+          desc: [
+            "· jQuery에 대한 이해 및 활용",
+            "· jQuery에서 지원해주는 API 활용과 선택자를 통한 요소 접근을 통하여 CSS 등 스타일링 및 데이터 가공 경험 다수 보유",
+            "· MVC 및 MVVM 패턴 사용 경험 보유",
+          ],
+        },
+        {
+          skill: "TypeScript",
+          level: "하",
+          desc: [
+            "· Vue.js와 TypeScript를 함께 사용한 경험 보유",
+            "· TypeScript 문법 이해 및 사용 가능",
+          ],
+        },
+        {
+          skill: "JavaScript",
+          level: "중",
+          desc: [
+            "· JavaScript에 대한 이해 및 활용 가능",
+            "· JavaScript에서의 this에 대한 이해 및 활용 가능",
+            "· Chrome Inspector를 통한 성능 개선 경험 보유",
+            "· Open 라이브러리, Open Api 통한 개발 경험 보유",
+          ],
+        },
+        {
+          skill: "HTML5",
+          level: "중",
+          desc: [
+            "· 웹 표준 및 웹 접근성을 준수한 시멘틱 마크업 생성 가능",
+            "· 브라우저 렌더링 과정에 대한 이해",
+          ],
+        },
+        {
+          skill: "CSS3",
+          level: "중",
+          desc: [
+            "· CSS3에 대한 이해 및 활용 가능",
+            "· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능",
+            "· 크로스 브라우저 이슈 대응 경험 보유",
+            "· 반응형 스타일 경험 보유",
+          ],
+        },
+        {
+          skill: "Stylus",
+          level: "중",
+          desc: [
+            "· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능",
+            "· 웹/앱(WebView) 스타일 경험 보유",
+            "· 크로스 브라우징 이슈 대응 경험 보유",
+            "· 반응형 스타일 경험 보유",
+          ],
+        },
+        {
+          skill: "Kendo UI",
+          level: "중",
+          desc: [
+            "· Kendo UI의 컴포넌트 사용 및 활용 가능",
+            "· Kendo UI에서 지원해주는 UI 컴포넌트를 통하여 공용 컴포넌트 개발 및 활용 경험 보유",
+          ],
+        },
+      ],
+    };
+  },
+};
 </script>
 <style>
-.el-table.table-dark{
+.el-table.table-dark {
   background-color: #172b4d;
   color: #f8f9fe;
 }
 
 .el-table.table-dark th,
-.el-table.table-dark tr{
+.el-table.table-dark tr {
   background-color: #172b4d;
 }
 
 .el-table.table-dark td,
-.el-table.table-dark th.is-leaf{
+.el-table.table-dark th.is-leaf {
   border-bottom: none;
 }
 .skill-wrapper .skill-background {
