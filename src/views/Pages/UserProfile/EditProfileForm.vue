@@ -10,7 +10,7 @@
         <div class="profile-intro justify-content-center">
           <div class="mb-4">
             <i class="ic-icons ni ni-laptop"></i>
-            <p class="title heading">경력사항 (5년 6개월)</p>
+            <p class="title heading">경력사항 (7년 2개월)</p>
             <span class="description">(주)NC ITS (2022.07 ~ 재직중)</span>
             <span class="description"
               >(주)스테이지파이브 (2021.01 ~ 2022.06)</span
@@ -98,7 +98,7 @@ import {
   DropdownItem,
   DropdownMenu,
   Table,
-  TableColumn,
+  TableColumn
 } from "element-ui";
 import SocialTrafficTable from "../../Dashboard/SocialTrafficTable";
 import PageVisitsTable from "../../Dashboard/PageVisitsTable";
@@ -109,7 +109,7 @@ export default {
     [DropdownItem.name]: DropdownItem,
     [DropdownMenu.name]: DropdownMenu,
     [Table.name]: Table,
-    [TableColumn.name]: TableColumn,
+    [TableColumn.name]: TableColumn
   },
   data() {
     return {
@@ -123,7 +123,7 @@ export default {
         city: "New York",
         country: "USA",
         postalCode: "",
-        aboutMe: `Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.`,
+        aboutMe: `Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.`
       },
       activationData: [
         {
@@ -131,29 +131,29 @@ export default {
           period: "11.03 ~ 진행중",
           institute: "상명대학교",
           content:
-            "S.I.S(축구) 학과 동아리 활동, 주 2회 오후 5시 ~ 7시에 타과와 친선 경기를 진행. 현재는 OB(졸업생) 동아리에 가입하여 월 1회 정기적으로 축구를 하며 연 1회 신입생과 재학생 그리고 졸업생들과 함께 MT를 진행하여 선/후배 간의 친목도모와 재학생 동아리 회장에게 축구용품, 구급품 그리고 회식비 지원 및 후배 분들이 궁금해하는 전공 분야에 대하여 적극적으로 답변을 해줌",
+            "S.I.S(축구) 학과 동아리 활동, 주 2회 오후 5시 ~ 7시에 타과와 친선 경기를 진행. 현재는 OB(졸업생) 동아리에 가입하여 월 1회 정기적으로 축구를 하며 연 1회 신입생과 재학생 그리고 졸업생들과 함께 MT를 진행하여 선/후배 간의 친목도모와 재학생 동아리 회장에게 축구용품, 구급품 그리고 회식비 지원 및 후배 분들이 궁금해하는 전공 분야에 대하여 적극적으로 답변을 해줌"
         },
         {
           name: "학생회장",
           period: "15.03 ~ 16.02",
           institute: "상명대학교",
           content:
-            "학생회를 이끌며 신입생과 재학생들간의 친목 도모와 신입생들에게 학교 적응에 도움을 주며 신입생 및 재학생 그리고 규수님들 간의 월활한 소통을 할 수 있도록 중간 역할로 개선하였으며, 강의실 청소와 행사를 주로 준비와 학교 행사가 성공적으로 마무리 될 수 있도록 적극적으로 참여하며 도움",
+            "학생회를 이끌며 신입생과 재학생들간의 친목 도모와 신입생들에게 학교 적응에 도움을 주며 신입생 및 재학생 그리고 규수님들 간의 월활한 소통을 할 수 있도록 중간 역할로 개선하였으며, 강의실 청소와 행사를 주로 준비와 학교 행사가 성공적으로 마무리 될 수 있도록 적극적으로 참여하며 도움"
         },
         {
           name: "인턴",
           period: "15.06 ~ 15.08",
           institute: "(주)ioot",
           content:
-            "대학교 3학년 여름 방학 기간 동안 미세먼지 측정기 제품의 Front-End부분 참여 및 공부",
+            "대학교 3학년 여름 방학 기간 동안 미세먼지 측정기 제품의 Front-End부분 참여 및 공부"
         },
         {
           name: "하이런",
           period: "15.03 ~ 16.02",
           institute: "상명대학교",
           content:
-            "2014년 공과대 당구 동아리 회장이었던 저는 차기 회장에게 동아리 회장 직위를 인계하고, 학교 중앙 동아리에 등록 할 수 있도록 도움을 주었으며, 동아리 회원으로 타과생들과 함께 즐기며 입문자나 초보자에게 천천히 자세히 알려주며 친목도모",
-        },
+            "2014년 공과대 당구 동아리 회장이었던 저는 차기 회장에게 동아리 회장 직위를 인계하고, 학교 중앙 동아리에 등록 할 수 있도록 도움을 주었으며, 동아리 회원으로 타과생들과 함께 즐기며 입문자나 초보자에게 천천히 자세히 알려주며 친목도모"
+        }
       ],
       educationAndStudy: [
         {
@@ -162,7 +162,7 @@ export default {
           type: "스터디 모임",
           institute: "러닛",
           content:
-            "7주간 매주 미니 프로젝트를 통해 React.js에 대한 기초와 문법 그리고 Redux와 같은 상태 관리 등에 대해 리더의 주도 하에 스터기 그룹 모임을 통해 진행",
+            "7주간 매주 미니 프로젝트를 통해 React.js에 대한 기초와 문법 그리고 Redux와 같은 상태 관리 등에 대해 리더의 주도 하에 스터기 그룹 모임을 통해 진행"
         },
         {
           name: "Nexacro Platform 개발자 교육",
@@ -170,7 +170,7 @@ export default {
           type: "교육",
           institute: "투비소프트",
           content:
-            "3일 간 Nexacro Platform를 사용하여 예제를 통한 기초 사용법 및 컴포넌트 사용법을 익힘 ",
+            "3일 간 Nexacro Platform를 사용하여 예제를 통한 기초 사용법 및 컴포넌트 사용법을 익힘 "
         },
         {
           name: "Java Enterprise 고급 인력 양성",
@@ -178,16 +178,16 @@ export default {
           type: "교육",
           institute: "비트교육센터",
           content:
-            "Java, JSP, JavaScript 언어를 통해 Spring Framework 사용법을 배우고 배운 것을 바탕으로 음원믹싱 서비스를 제공하는 프로젝트를 진행",
-        },
-      ],
+            "Java, JSP, JavaScript 언어를 통해 Spring Framework 사용법을 배우고 배운 것을 바탕으로 음원믹싱 서비스를 제공하는 프로젝트를 진행"
+        }
+      ]
     };
   },
   methods: {
     updateProfile() {
       alert("Your data: " + JSON.stringify(this.user));
-    },
-  },
+    }
+  }
 };
 </script>
 <style>

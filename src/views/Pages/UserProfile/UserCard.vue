@@ -5,7 +5,7 @@
         <div class="card-profile-image">
           <a href="#/profile">
             <b-img
-              src="img/portfolio/my-profile.jpg"
+              src="img/portfolio/my-profile.png"
               style="max-width: 140px"
               rounded="circle"
             />
@@ -30,11 +30,11 @@
             </div>
             <div>
               <span class="heading">나이</span>
-              <span class="description">31</span>
+              <span class="description">33</span>
             </div>
             <div>
               <span class="heading">경력</span>
-              <span class="description">5년 6개월</span>
+              <span class="description">7년 2개월</span>
             </div>
           </div>
         </b-col>
@@ -42,7 +42,7 @@
       <div class="text-center">
         <h5 class="h3">박이삭</h5>
         <div class="h5 font-weight-300">
-          경기도 수원시 이의동 1338 광교 센트럴 푸르지오시티 A동 1239호
+          경기도 수원시 광교중앙로 145 광교 엘포트아이파크 B동 421호
         </div>
         <div class="h5 mt-4">상명대학교</div>
         <div>컴퓨터소프트웨어공학과</div>

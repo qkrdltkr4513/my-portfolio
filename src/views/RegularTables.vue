@@ -14,7 +14,7 @@
             <template slot="footer">
               <div class="first-line">
                 <span class="text-success mr-2">나이:</span>
-                <span class="text-nowrap mr-4">31세</span>
+                <span class="text-nowrap mr-4">33세</span>
                 <span class="text-success mr-2">성별:</span>
                 <span class="text-nowrap">남자</span>
               </div>
@@ -51,7 +51,7 @@
           <stats-card
             title="경력"
             type="gradient-green"
-            sub-title="5년 6개월"
+            sub-title="7년 2개월"
             icon="ni ni-laptop"
             class="mb-4"
           >
@@ -151,7 +151,7 @@ import {
   DropdownItem,
   DropdownMenu,
   Table,
-  TableColumn,
+  TableColumn
 } from "element-ui";
 import projects from "./Tables/projects";
 import users from "./Tables/users";
@@ -166,7 +166,7 @@ export default {
     [DropdownItem.name]: DropdownItem,
     [DropdownMenu.name]: DropdownMenu,
     [Table.name]: Table,
-    [TableColumn.name]: TableColumn,
+    [TableColumn.name]: TableColumn
   },
   data() {
     return {
@@ -189,15 +189,15 @@ export default {
             ". 제플린을 통하여 디자인 시스템 및 디자인 가이드 반영",
             ". Jira 태스크 관리 및 Git PR, 리뷰 도입 및 PR Template 생성",
             ". 디자인 검수 대응",
-            "· 기획/디자인 리뷰 참여",
+            "· 기획/디자인 리뷰 참여"
           ],
           manageSource: "Git(SourceTree)",
           period: "2022.07 ~ 진행중",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-pindirectshop2.0.png",
-          name: "핀다이렉트샵 2.0(자사몰)",
+          name: "핀다이렉트Z(자사몰)",
           skill:
             "Next.js, React.js, Typescript, React-query, Recoil, ES6, AWS S3, Emotion, Framer-motion",
           intro:
@@ -211,11 +211,11 @@ export default {
             ". 1.0에서 판매 중이던 5G(MNO), 중고폰 서비스를 걷어내고 유심 위주의 MVNO 서비스 제공",
             ". 디자인 팀에서 요구하는 애니메이션을 Framer 및 CSS로 대응",
             ". 디자인 팀과의 협업으로 Figma를 통해 디자인 가이드 내용 반영",
-            "· 기획/디자인 리뷰 참여",
+            "· 기획/디자인 리뷰 참여"
           ],
           manageSource: "Git(SourceTree)",
           period: "2022.01 ~ 2022.06",
-          url: "https://pindirectshop.com",
+          url: "https://pindirectshop.com"
         },
         {
           img: "img/portfolio/img-pindirectshop-home.png",
@@ -234,11 +234,11 @@ export default {
             ". 라이브 서비스 이슈 대응",
             ". 마케팅 활용 목적으로 구글 애널리틱스 픽셀 연동",
             "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
-            "· 기획/디자인 리뷰 참여",
+            "· 기획/디자인 리뷰 참여"
           ],
           manageSource: "Git(SourceTree)",
           period: "2021.03 ~ 2022.02",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-one-click.png",
@@ -252,11 +252,11 @@ export default {
             "· NICE 본인 인증 (휴대폰/신용카드) 연동",
             ". KCP 결제 모듈 연동",
             "· 기획/디자인 리뷰 참여",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2021.02 ~ 2021.02",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-smartphoneshop-home.png",
@@ -269,11 +269,11 @@ export default {
             "· 라이브 서비스 이슈 대응",
             "· 핀다이렉트샵(자사 서비스) 업데이트시 동기화 작업",
             "· 기획/디자인 리뷰 참여",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2021.01 ~ 2022.02",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-pindirectshop.png",
@@ -283,11 +283,11 @@ export default {
             "신규 스마트폰 출시에 따른 사전 예약 및 다양한 프로모션 그리고 이벤트 혜택등을 고객들에게 공지하고 안내하는 홈페이지",
           workList: [
             "· 신규 출시되는 스마트폰과 다양한 프로모션과 이벤트에 맞게 내용 수정",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2021.01 ~ 2021.01",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-loadcell-map-view.png",
@@ -302,11 +302,11 @@ export default {
             "· 맵뷰에 표시되는 Loadcell 아이콘 클릭시 현재 하중에 대한 데이터를 plotly.js를 사용하여 3D 차트 표시",
             "· 각 종 UI 컴포넌트를 통해 담당 페이지 기능 구현 및 시각화",
             "· PG사 연동을 통한 결제 기능 구현 및 그룹 관리 기능 구현",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.11 ~ 2020.11",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-security.jpg",
@@ -320,11 +320,11 @@ export default {
             "· Quasar Framework에서 제공해주는 Cordova를 통해 하이브리드 앱 개발 환경 셋업",
             "· Quasar Framework와 Kendo UI에서 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발",
             "· Android 부분을 담당하여 개발",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.11 ~ 2020.11",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-security.jpg",
@@ -337,11 +337,11 @@ export default {
             "· Quasar Framework에서 제공해주는 Cordova를 통해 하이브리드 앱 개발 환경 셋업",
             "· Quasar Framework와 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발",
             "· Android 부분을 담당하여 개발",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.10 ~ 2020.11",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-iaq-cloud-dashboard.PNG",
@@ -357,11 +357,11 @@ export default {
             "· 자사에서 개발한 SDK와 각 종 UI 컴포넌트를 통해 담당 페이지 기능 구현 및 시각화",
             "· PG사 연동을 통한 결제 기능 구현 및 그룹 관리 기능 구현",
             "· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.08 ~ 2020.09",
-          url: "https://iaq-cloud.com",
+          url: "https://iaq-cloud.com"
         },
         {
           img: "img/portfolio/img-iaq-admin.PNG",
@@ -376,11 +376,12 @@ export default {
             "· Quasar Framework와 Kendo UI에서 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발",
             "· Android 부분을 담당하여 개발 및 구글 플레이 스토어 배포",
             "· 자사에서 개발한 SDK와 캐러셀 등 공용 컴포넌트를 통해 담당 페이지 구현 및 시각화",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.08 ~ 2020.08",
-          url: "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality",
+          url:
+            "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality"
         },
         {
           img: "img/portfolio/img-buildthing-admin.PNG",
@@ -393,11 +394,12 @@ export default {
             "· 프론트엔드 개발",
             "· 신규 개발 제품 Gateway에 대한 관련 기능 및 UI 변경 사항 반영",
             "· Android와 Window 앱 담당 및 구글 플레이 스토어, 마이크로스토어 배포",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.08 ~ 2020.08",
-          url: "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.ble",
+          url:
+            "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.ble"
         },
         {
           img: "img/portfolio/img-iaq-scan.PNG",
@@ -412,11 +414,12 @@ export default {
             "· Quasar Framework와 Kendo UI에서 제공해주는 컴포넌트를 통해 공용 컴포넌트 개발",
             "· Android 부분을 담당하여 개발 및 구글 플레이 스토어 배포",
             "· 자사에서 개발한 SDK와 각 종 UI 컴포넌트를 통해 담당 페이지 기능 구현 및 시각화",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.08 ~ 2020.08",
-          url: "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality.scan",
+          url:
+            "https://play.google.com/store/apps/details?id=kr.buildit.buildthing.airquality.scan"
         },
         {
           img: "img/portfolio/img-buildthing-cloud-v1.PNG",
@@ -428,11 +431,11 @@ export default {
             "· 프론트엔드 개발",
             "· 신규 개발 제품 Gateway에 대한 관련 기능 및 UI 변경 사항 반영",
             "· Flask babel을 이용하여 SSR 렌더링을 통한 이용 약관에 관련된 페이지의 다국어 message.pot로 적용",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.07 ~ 2019.08",
-          url: "https://cloud.buildit.kr",
+          url: "https://cloud.buildit.kr"
         },
         {
           img: "img/portfolio/img-smart-building.jpg",
@@ -446,11 +449,12 @@ export default {
             "· 담당 페이지에 대한 각 종 컴포넌트를 통한 신규 및 추가 기능 개발",
             "· 담당 페이지에 대한 개선 사항 반영 및 현장 이슈 대응",
             "· 유지보수 및 Chrom inspector를 통한 성능 개선",
-            "· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영",
+            "· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.03 ~ 2020.10",
-          url: "https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/",
+          url:
+            "https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/"
         },
         {
           img: "img/portfolio/img-buildit-homepage.PNG",
@@ -464,11 +468,11 @@ export default {
             "· Quasar Framework에서 지원해주는 컴포넌트 및 그리드 레이아웃을 통해 반응형 개선",
             "· 이전 홈페이지에서 신규 페이지 및 변경 된 페이지 개발",
             "· 공용 컴포넌트 개발",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.02 ~ 2020.03",
-          url: "https://buildit.kr",
+          url: "https://buildit.kr"
         },
         {
           img: "img/portfolio/img-smart-building.jpg",
@@ -481,11 +485,12 @@ export default {
             "· 프론트엔드 유지보수 및 개발",
             "· 인수인계 받은 담당 페이지에 대한 개선 사항 개발",
             "· 담당 페이지 유지보수 및 Chrom inspector를 통한 성능 개선",
-            "· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영",
+            "· 고객사의 디자인 가이드 라인을 제공 받아 디자인 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.05 ~ 2020.02",
-          url: "https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/",
+          url:
+            "https://www.samsung.com/sec/business/b-iot-solutions/b-iot-solution/"
         },
         {
           img: "img/portfolio/img-security.jpg",
@@ -499,11 +504,11 @@ export default {
             "· Kendo UI에서 제공해주는 차트 컴포넌트를 통해 데이터 시각화",
             "· 요구사항에 맞게 각 종 컴포넌트를 사용하여 각 페이지의 기능 구현",
             "· Gridstack.js를 사용하여 대시보드 카드 및 추가, 편집, 삭제 구현",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.05 ~ 2019.10",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-buildthing-cloud.PNG",
@@ -515,11 +520,11 @@ export default {
             "· 프론트엔드 개발",
             "· Chart.js를 Kendo UI의 차트로 변경 수행 및 추가 된 센서 데이터 시각화 구현",
             "· 리뉴얼 한 대시보드 페이지 외에 담당 페이지를 Kendo UI에서 제공하는 컴포넌트 및 기존에 구현 되어있는 공용 컴포넌트를 통해 요구사항에 맞게 기능 구현",
-            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드라인 내용 반영"
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.05 ~ 2019.05",
-          url: "https://cloud.buildit.kr",
+          url: "https://cloud.buildit.kr"
         },
         {
           img: "img/portfolio/img-factory.jpg",
@@ -533,11 +538,11 @@ export default {
             "· MES시스템(포항 / 광양)의 구내운송 부분의 운송장비 관리 및 모니터링 그리고 계량 부분을 담당",
             "· 업무 Flow에 대한 개선 안에 대해 개발 진행",
             "· 제철소 특성으로 연중 무휴로 가동되기 때문에 야간/주말에 발생하는 현장의 전산 이슈에 대해 다른 팀원들과 함께 협업을 통하여 대응",
-            "· 코드 수정 및 신규 기능으로 인해 추가 된 코드를 종합하여 운영 서버에서 테스트 이후 정기 이행일에 맞추어 가동계 서버로 자원 이행",
+            "· 코드 수정 및 신규 기능으로 인해 추가 된 코드를 종합하여 운영 서버에서 테스트 이후 정기 이행일에 맞추어 가동계 서버로 자원 이행"
           ],
           manageSource: "Serena Demension",
           period: "2018.04 ~ 2018.12",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-swc-web.PNG",
@@ -550,11 +555,11 @@ export default {
             "· 프론트엔드 개발",
             "· 아파트 커뮤니티 웹 사이트와 키오스크 개발을 진행하였으며 주 업무로 웹 사이트의 시스템 관리 부분의 화면과 키오스크의 도서관 좌석 배정, 골프장 타석 배정, 게스트룸 객실 관리 부분의 페이지를 담당",
             "· 쿼리문 작성과 공용 컴포넌트를 통해 각 페이지의 요구사항에 맞게 데이터를 가공하여 기능 구현",
-            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영",
+            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영"
           ],
           manageSource: "SVN",
           period: "2017.11 ~ 2018.03",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-swc-web.PNG",
@@ -567,11 +572,11 @@ export default {
             "· 프론트엔드 개발",
             "· 아파트 커뮤니티 웹 사이트와 키오스크 개발을 진행하였으며 주 업무로 웹 사이트의 시스템 관리 부분의 화면과 키오스크의 도서관 좌석 배정, 골프장 타석 배정, 게스트룸 객실 관리 부분의 페이지를 담당",
             "· 쿼리문 작성과 공용 컴포넌트를 통해 각 페이지의 요구사항에 맞게 데이터를 가공하여 기능 구현",
-            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영",
+            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영"
           ],
           manageSource: "SVN",
           period: "2018.02 ~ 2018.03",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-erp.jpg",
@@ -582,11 +587,11 @@ export default {
             "· 프론트엔드 개발",
             "· 투비소프트의 X-PLATFORM 을 사용하여 ERP시스템의 구매 부분을 담당",
             "· X-PLATFORM에서 제공해주는 컴포넌트를 통해 가이드 라인 반영",
-            "· 필요한 데이터에 맞게 쿼리문 작성과 플랫폼에서 제공해주는 컴포넌트를 통해 요구사항에 맞게 기능 구현",
+            "· 필요한 데이터에 맞게 쿼리문 작성과 플랫폼에서 제공해주는 컴포넌트를 통해 요구사항에 맞게 기능 구현"
           ],
           manageSource: "SVN",
           period: "2017.06 ~ 2017.10",
-          url: null,
+          url: null
         },
         {
           img: "img/portfolio/img-swc-web.PNG",
@@ -599,15 +604,15 @@ export default {
             "· 프론트엔드 개발",
             "· 아파트 커뮤니티 웹 사이트와 키오스크 개발을 진행하였으며 주 업무로 웹 사이트의 시스템 관리 부분의 화면과 키오스크의 도서관 좌석 배정, 골프장 타석 배정, 게스트룸 객실 관리 부분의 페이지를 담당",
             "· 쿼리문 작성과 공용 컴포넌트를 통해 각 페이지의 요구사항에 맞게 데이터를 가공하여 기능 구현",
-            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영",
+            "· 퍼블리셔와의 협업으로 제공해준 기본 Layout 내에서 디자인 가이드라인 반영"
           ],
           manageSource: "SVN",
           period: "2017.04 ~ 2017.05",
-          url: null,
-        },
-      ],
+          url: null
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 <style>
