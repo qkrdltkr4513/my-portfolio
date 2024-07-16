@@ -96,11 +96,9 @@
       </stats-card>
     </div>
     <b-container fluid class="mt-4 mb-4">
-      <b-row>
-        <b-col>
-          <!-- <light-table/> -->
-        </b-col>
-      </b-row>
+      <!-- <b-row>
+        <b-col> </b-col>
+      </b-row> -->
       <!-- <div class="mt-5"></div> -->
       <social-traffic-table></social-traffic-table>
     </b-container>
@@ -211,9 +209,9 @@ export default {
             ". Atomic 디자인 패턴 사용 경험",
             ". React.js의 LifeCycle 이해",
             "· 공용 컴포넌트 생성 및 컴포넌트 활용",
-            "· Redux를 통한 state 관리",
+            "· Redux, recoil를 통한 state 관리",
             "· Redux-saga 미들웨어를 통한 비동기 통신 경험",
-            "· recoil, react-query 공부 진행 중"
+            "· react-query 비동기 상태 관리 경험"
           ]
         },
         {
@@ -256,8 +254,8 @@ export default {
           level: "중",
           desc: [
             "· CSS3에 대한 이해 및 활용 가능",
-            "· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능",
-            "· 크로스 브라우저 이슈 대응 경험 보유",
+            "· 디자인 가이드 및 요구사항에 맞게 스타일링 가능",
+            "· 크로스 브라우징 이슈 대응 경험 보유",
             "· 반응형 스타일 경험 보유"
           ]
         },
@@ -265,7 +263,7 @@ export default {
           skill: "Stylus",
           level: "중",
           desc: [
-            "· 디자이너의 가이드 및 요구사항에 맞게 스타일링 가능",
+            "· 디자인 가이드 및 요구사항에 맞게 스타일링 가능",
             "· 웹/앱(WebView) 스타일 경험 보유",
             "· 크로스 브라우징 이슈 대응 경험 보유",
             "· 반응형 스타일 경험 보유"
@@ -275,8 +273,8 @@ export default {
           skill: "Kendo UI",
           level: "중",
           desc: [
-            "· Kendo UI의 컴포넌트 사용 및 활용 가능",
-            "· Kendo UI에서 지원해주는 UI 컴포넌트를 통하여 공용 컴포넌트 개발 및 활용 경험 보유"
+            "· Kendo UI에서 지원해주는 UI 컴포넌트를 커스텀하여 공용 컴포넌트 개발 경험 보유",
+            "· Kendo UI에서 지원해주는 Chart 컴포넌트를 통한 데이터 시각화 경험 보유"
           ]
         }
       ]

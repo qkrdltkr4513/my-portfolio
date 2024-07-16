@@ -175,26 +175,108 @@ export default {
       projectList: [
         {
           img: "img/portfolio/img-security.jpg",
-          name: "서비스 데스크 ITSM 3.0",
+          name: "ITSM 통합관리자 (전사 서비스)",
           skill:
-            "React.js, Typescript, Redux, Storybook, ES6, Emotion, React-flow",
+            "Next.js, Typescript, ITSM 컴포넌트, Turbo Repo, Recoil, React-Query, Emotion, Module Federation",
           intro:
-            "법인관리, 조직관리, 재택 등 신청, 승인, 결제 등의 사내에서 수행하는 전반적인 업무에 필요한 내용을 관리하고 지원 및 제공",
+            "NSD, NCI 서비스와 이후에 추가될 ITSM 서비스를 하나의 관리자 서비스로 통합하여 관리 기능을 제공하는 서비스",
           workList: [
-            "· Storybook을 통해 서비스 데스크에 사용 될 공용 컴포넌트 생성",
-            "· 서비스 데스크 프로젝트 셋업",
-            "· Themes, Layout, 컴포넌트 등의 공용 및 core 부분 셋업",
-            "· 프로젝트 리딩 및 서포트",
-            "· React-flow 라이브러리를 통한 워크플로우 개발 진행중",
-            ". 제플린을 통하여 디자인 시스템 및 디자인 가이드 반영",
-            ". Jira 태스크 관리 및 Git PR, 리뷰 도입 및 PR Template 생성",
-            ". 디자인 검수 대응",
+            "· Module Federation 도입 검토 및 테스트",
+            "· host app을 Next Federation으로 셋업",
+            "· 각각의 기존 서비스 관리자 기능을 하나의 container로 분리 및 remote app 셋업",
+            "· host app과 remote app 연결",
             "· 기획/디자인 리뷰 참여"
           ],
           manageSource: "Git(SourceTree)",
-          period: "2022.07 ~ 진행중",
+          period: "2024.07 ~ 진행중",
           url: null
         },
+        {
+          img: "img/portfolio/img-security.jpg",
+          name: "NCI (전사 서비스)",
+          skill:
+            "Next.js, Typescript, ITSM 컴포넌트, Turbo Repo, Recoil, React-Query, Emotion, Web Socket, GA",
+          intro:
+            "게임, 인증, 거래소 등 회사에서 등록한 모든 서비스에 대한 장애를 옵스지니를 통해 구독하여 장애 발생시 서비스 담당자 및 해당 서비스를 구독한 사용자에게 SMS, 이메일, 푸시알림 채널을 통하여 장애를 전파하고 현재 장애 상태를 실시간으로 표시하는 서비스",
+          workList: [
+            "· 관리자 앱 프로젝트 셋업",
+            "· 공용 Layout 컴포넌트 개발",
+            "· 디자인 시스템으로 생성한 UI 컴포넌트로 프로젝트에 사용 될 공용 컴포넌트 개발",
+            "· 로그인 페이지 개발",
+            "· 관리자의 구독관리, 알림관리, 발송내역, 신고내역 페이지 개발",
+            ". 디자이너와의 협업으로 Figma를 통하여 디자인 가이드 반영",
+            "· 기획/디자인 리뷰 참여"
+          ],
+          manageSource: "Git(SourceTree)",
+          period: "2024.03 ~ 2024.07",
+          url: null
+        },
+        {
+          img: "img/portfolio/img-security.jpg",
+          name: "NSD 앱 (전사 서비스)",
+          skill:
+            "React-Native, Expo, Typescript, Recoil, React-query, Emotion, FCM, Azure, MS Intune",
+          intro:
+            "NSD 웹서비스를 관리자 기능을 제외하고 앱으로 생성한 것으로 사내망이 아닌 외부망에서도 업무 진행시 필요한 승인, 결재, 반려 등의 기능을 앱으로 제공하는 서비스",
+          workList: [
+            "· React Native 기술 검토",
+            "· Expo를 통한 프로젝트 셋업 및 공용 컴포넌트 개발",
+            "· WebView와 DeepLink를 통하여 로그인 개발",
+            "· 결재, 처리, 요청, 상세 페이지 개발",
+            "· FCM을 통한 push 알림 제공 및 알림 페이지 개발",
+            "· 앱 내의 푸시알림 설정을 통한 디바이스 알림 설정 on/off 개발",
+            "· Foreground, Background에 따른 상태관리",
+            "· MS Teams 연동",
+            "· AOS, IOS 빌드 및 사내포털에 앱 배포",
+            "· 보안플랫폼 팀과의 협업으로 intune wrapping, MS Azure 앱 등록 및 MAM 정책 적용",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드 내용 반영",
+            "· 기획/디자인 리뷰 참여",
+            "· 서비스 오픈 이후 운영과 고도화 내용 반영 진행중"
+          ],
+          manageSource: "Git(SourceTree)",
+          period: "2023.04 ~ 2023.11",
+          url: null
+        },
+        {
+          img: "img/portfolio/img-security.jpg",
+          name: "NSD 웹(전사 서비스)",
+          skill:
+            "React.js, Typescript, ITSM 컴포넌트, Recoil, React-query, Emotion, React-flow, i18n, GA",
+          intro:
+            "전사 협업 서비스로 국내/외 법인, 조직, 부서, 사용자 간의 협업을 위한 태스크 관리 및 업무 진행에 있어 필요로하는 모든 요청서 신청, 승인, 결재 등을 제공하고 관리자 페이지를 통해 조직 및 사용자, 권한, 워크플로우, 요청서, 공통코드 등 관리 기능을 제공하는 서비스",
+          workList: [
+            "· 프로젝트 셋업",
+            "· 디자인 시스템으로 생성한 UI 컴포넌트로 프로젝트에 사용 될 공용 컴포넌트 개발",
+            "· React-flow 라이브러리를 통해 워크플로우 개발",
+            "· Back-End 개발팀에 BFF API 도입 제안 및 도입",
+            "· 워크플로우 조작 history를 쌓아 뒤로가기, 앞으로가기 초기화 기능 개발",
+            "· 디자이너와의 협업으로 제플린을 통해 디자인 가이드 내용 반영",
+            "· 기획/디자인 리뷰 참여",
+            "· 서비스 오픈 이후 운영과 고도화 내용 반영 진행중"
+          ],
+          manageSource: "Git(SourceTree)",
+          period: "2023.01 ~ 2023.11",
+          url: null
+        },
+
+        {
+          img: "img/portfolio/img-security.jpg",
+          name: "ITSM 디자인 시스템",
+          skill: "React.js, Typescript, Storybook, Emotion, Rollup, Nexus",
+          intro:
+            "공용 UI 컴포넌트 생성으로 기획, 디자인 직군과의 원활한 커뮤니케이션과 앞으로 진행 될 ITSM 서비스에 사용할 공용 UI 컴포넌트를 생성하여 제공",
+          workList: [
+            "· 디자인 시스템에 있는 기능 명세와 디자인 가이드를 제플린을 통해 ITSM 서비스에서 사용 될 UI 컴포넌트 개발",
+            "· 디자인 가이드에 명시된 typography, color, 공용으로 사용 될 Themes 셋업",
+            "· Rollup을 통해 사내 private 저장소인 Nexus에 업로드",
+            "· 팀 내 Jira 태스크 관리 및 Naming 컨벤션, Git PR, Git Flow, 리뷰 도입",
+            "· 디자인 검수 대응"
+          ],
+          manageSource: "Git(SourceTree)",
+          period: "2022.07 ~ 2022.12",
+          url: null
+        },
+
         {
           img: "img/portfolio/img-pindirectshop2.0.png",
           name: "핀다이렉트Z(자사몰)",
@@ -361,7 +443,7 @@ export default {
           ],
           manageSource: "Git(SourceTree)",
           period: "2020.08 ~ 2020.09",
-          url: "https://iaq-cloud.com"
+          url: "https://www.youtube.com/watch?v=YdbAktMYipU&t=82s"
         },
         {
           img: "img/portfolio/img-iaq-admin.PNG",
@@ -435,7 +517,7 @@ export default {
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.07 ~ 2019.08",
-          url: "https://cloud.buildit.kr"
+          url: null
         },
         {
           img: "img/portfolio/img-smart-building.jpg",
@@ -498,7 +580,7 @@ export default {
           skill:
             "Spring boot Framework, Vue.js, jQuery, JavaScript, GridStack.js, Stylus, Kendo UI",
           intro:
-            "연구 과제로 사용자 권한 별, 툴 별, 과제 별, 조직 별의 보안 관련 정보의 조회가 가능하며 각 종 차트를 통한 보안 관련 정보 시각화 및 사용자가 직접 추가/편집이 가능한 사용자 정의형 대시보드 와 사용자 및 권한 관리가 주요 기능인 웹 서비스",
+            "삼성리서치 연구 과제로 사용자 권한 별, 툴 별, 과제 별, 조직 별의 보안 관련 정보의 조회가 가능하며 각 종 차트를 통한 보안 관련 정보 시각화 및 사용자가 직접 추가/편집이 가능한 사용자 정의형 대시보드와 사용자 및 권한 관리가 주요 기능인 웹 서비스",
           workList: [
             "· 프론트엔드 개발",
             "· Kendo UI에서 제공해주는 차트 컴포넌트를 통해 데이터 시각화",
@@ -524,7 +606,7 @@ export default {
           ],
           manageSource: "Git(SourceTree)",
           period: "2019.05 ~ 2019.05",
-          url: "https://cloud.buildit.kr"
+          url: null
         },
         {
           img: "img/portfolio/img-factory.jpg",

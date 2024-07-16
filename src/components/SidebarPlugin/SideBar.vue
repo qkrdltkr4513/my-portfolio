@@ -6,7 +6,7 @@
     <div class="container-fluid">
       <!--Toggler-->
       <navbar-toggle-button @click.native="showSidebar"> </navbar-toggle-button>
-      <router-link class="navbar-brand" to="/"> </router-link>
+      <!-- <router-link class="navbar-brand" to="/"> </router-link> -->
 
       <slot name="mobile-right">
         <ul class="nav align-items-center d-md-none">
